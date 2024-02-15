@@ -1,7 +1,6 @@
 # Bloggus Astro App ✨
 
-This is my pet project project with Astro, Tailwind, TS.
----
+## This is my pet project project with Astro, Tailwind, TS.
 
 ## 🚀 Project Structure
 
