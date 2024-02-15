@@ -1,14 +1,48 @@
 ---
 import HeaderLink from "@/components/HeaderLink.astro";
-import { SITE_TITLE } from "@/consts";
 ---
 
-<header>
-  <nav>
-    <h2><a href="/">{SITE_TITLE}</a></h2>
-    <div class="internal-links">
-      <HeaderLink href="/">Home</HeaderLink>
-      <HeaderLink href="/about">About</HeaderLink>
-    </div>
+<header
+    class={` 
+        flex items-center
+        bg-grayscale-20 pb-[22px] pl-[24px] pr-[24px]
+        pt-[22px]
+    `}
+>
+
+  <nav class={"flex w-[100%]"}>
+    <ul
+        class={`
+                    ml-auto flex flex-row items-center
+                `}
+    >
+      <li
+          class={`
+                            p-[6px] pl-[12px] pr-[12px] 
+                            font-medium
+                            text-grayscale-100 transition-all
+                            hover:text-primary 
+                            dark:text-grayscale-10 dark:hover:text-primary 
+                            
+                           
+                        `}
+      >
+        <HeaderLink href="/">Home</HeaderLink>
+      </li>
+      <li
+          class={`
+                            p-[6px] pl-[12px] pr-[12px] 
+                            font-medium
+                            text-grayscale-100 transition-all
+                            hover:text-primary 
+                            dark:text-grayscale-10 dark:hover:text-primary 
+                            
+                           
+                        `}
+      >
+        <HeaderLink href="/blog">Posts</HeaderLink>
+      </li>
+    </ul>
   </nav>
+
 </header>
