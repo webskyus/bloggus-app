@@ -1,46 +1,51 @@
 ---
 import {getCollection} from "astro:content";
-import FormattedDate from "@/components/FormattedDate.astro";
 import Layout from "@/layouts/Layout.astro";
 import Post from "@/components/Post.astro";
-import {PAGES_HEAD_INFO, POST_TYPE, URLS} from "../utils/consts";
-import {random} from "../utils/utils";
+import {PAGES_HEAD_INFO, POST_TYPE, URLS} from "@/utils/consts";
+import {random} from "@/utils/utils";
+import PageHeadInfo from "@/components/PageHeadInfo.astro";
 
 const posts = (await getCollection("blog")).sort(
     (a, b) => a.data.pubDate.valueOf() - b.data.pubDate.valueOf(),
 );
+
+const getPostVisualType = (evenMax, oddMax): POST_TYPE => {
+    const even = random(1, evenMax) % 2 === 0;
+    const odd = random(1, oddMax) % 3 === 0;
+
+    return even
+        ? POST_TYPE.POST_SM
+        : odd
+            ? POST_TYPE.POST_MD
+            : POST_TYPE.POST_LG;
+}
 ---
 
 <Layout>
-    <section class={`mt-[50px] mb-[24px] text-center`}>
-        <h1 class={`mb-[12px] font-bold text-[48px]`}>
-            {PAGES_HEAD_INFO[URLS.HOME].title}
-        </h1>
-        <p class={`max-w-[600px] m-auto font-thin text-[16px]`}>
-            {PAGES_HEAD_INFO[URLS.HOME].description}
-        </p>
-    </section>
+
+    <PageHeadInfo title={PAGES_HEAD_INFO[URLS.HOME].title} description={PAGES_HEAD_INFO[URLS.HOME].description}/>
 
     <section class={`container mx-auto`}>
         <section class={`flex flex-wrap -mx-2`}>
             {
                 Array.from(Array(3).keys()).map((item, rowIndex) => {
-                    return <article class={`w-full md:w-1/3 px-1 md:px-2`}>
+                    const maxItems = Math.round(posts.length / 3);
+                    const min = rowIndex * maxItems;
+                    const max = (rowIndex * maxItems) + maxItems;
+
+                    return (
+                            <article class={`w-full md:w-1/3 px-1 md:px-2`}>
                                 {
-                                    posts.map((post, postIndex) => {
-                                        const even = random(1, rowIndex + postIndex) % 2 === 0;
-                                        const odd = random(1, postIndex - rowIndex + 1) % 3 === 0;
-
-                                        const postType = even
-                                            ? POST_TYPE.POST_SM
-                                            : odd
-                                                ? POST_TYPE.POST_MD
-                                                : POST_TYPE.POST_LG;
-
-                                        return <Post title={post.data.title} postType={postType}/>
+                                    posts.slice(min, max).map((post, postIndex) => {
+                                        return (
+                                                <Post title={post.data.title}
+                                                      postType={getPostVisualType(min, max)}/>
+                                        )
                                     })
                                 }
                             </article>
+                    )
                 })
             }
         </section>

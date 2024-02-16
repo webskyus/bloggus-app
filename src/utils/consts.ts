@@ -15,12 +15,7 @@ export enum URLS {
   CYBERSPORT = '/cybersport'
 }
 
-interface PagesHeadInfoType {
-  title: string
-  description: string
-}
-
-export const PAGES_HEAD_INFO: Record<URLS, PagesHeadInfoType> = {
+export const PAGES_HEAD_INFO: Record<URLS, { title: string, description: string }> = {
   [URLS.HOME]: {
     title: 'Inspirations',
     description: 'We\'ve scoured web rankings and social media to compile the ultimate list of travel\'s most important, useful, and entertaining blogs.'
