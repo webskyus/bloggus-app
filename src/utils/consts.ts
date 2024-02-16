@@ -12,7 +12,9 @@ export enum URLS {
   ANIME = '/anime',
   SPORTS = '/sports',
   MOVIE = '/movie',
-  CYBERSPORT = '/cybersport'
+  FINANCE = '/finance',
+  MUSIC = '/music',
+  LIFE = '/life',
 }
 
 export const PAGES_HEAD_INFO: Record<URLS, { title: string, description: string }> = {
@@ -40,7 +42,15 @@ export const PAGES_HEAD_INFO: Record<URLS, { title: string, description: string 
     title: 'Inspirations',
     description: 'We\'ve scoured web rankings and social media to compile the ultimate list of travel\'s most important, useful, and entertaining blogs.'
   },
-  [URLS.CYBERSPORT]: {
+  [URLS.FINANCE]: {
+    title: 'Inspirations',
+    description: 'We\'ve scoured web rankings and social media to compile the ultimate list of travel\'s most important, useful, and entertaining blogs.'
+  },
+  [URLS.MUSIC]: {
+    title: 'Inspirations',
+    description: 'We\'ve scoured web rankings and social media to compile the ultimate list of travel\'s most important, useful, and entertaining blogs.'
+  },
+  [URLS.LIFE]: {
     title: 'Inspirations',
     description: 'We\'ve scoured web rankings and social media to compile the ultimate list of travel\'s most important, useful, and entertaining blogs.'
   }

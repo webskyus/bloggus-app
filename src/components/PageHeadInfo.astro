@@ -1,6 +1,4 @@
 ---
-import {PAGES_HEAD_INFO, URLS} from "../utils/consts";
-
 interface Props {
     title: string,
     description: string,
@@ -11,9 +9,10 @@ const {title, description} = Astro.props;
 
 <section class={`mt-[50px] mb-[24px] text-center`}>
     <h1 class={`mb-[12px] font-bold text-[48px]`}>
-        {PAGES_HEAD_INFO[URLS.HOME].title}
+        {title}
     </h1>
+
     <p class={`max-w-[600px] m-auto font-thin text-[16px]`}>
-        {PAGES_HEAD_INFO[URLS.HOME].description}
+        {description}
     </p>
 </section>
