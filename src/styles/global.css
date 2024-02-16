@@ -81,80 +81,17 @@ html {
   -moz-tab-size: 4;
   -o-tab-size: 4;
   tab-size: 4;
-  background: var(--color-bg);
+  background: #fff;
 }
 
-html.dark {
-  background: var(--color-bg-dark);
-}
 
 body {
   padding: 0;
   line-height: inherit;
-  overflow: hidden;
 }
 
 @layer base {
   :root {
     --color-primary: #b43feb;
-    --color-bg: #fff;
-    --color-bg-dark: #0d0c0f;
-
-    --color-alerts-success: #25dc37;
-    --color-alerts-error: #eb3f5e;
-
-    --color-additional-dark-smooth: #1a161f;
-    --color-additional-dark-line: #29282f;
-    --color-additional-line: #e9ebed;
-
-    --color-grayscale-10: #f9f9f9;
-    --color-grayscale-20: #ecf1f6;
-    --color-grayscale-30: #e3e9ed;
-    --color-grayscale-40: #d1d8dd;
-    --color-grayscale-50: #bfc6cc;
-    --color-grayscale-60: #9ca4ab;
-    --color-grayscale-70: #78828a;
-    --color-grayscale-80: #66707a;
-    --color-grayscale-90: #434e58;
-    --color-grayscale-100: #171725;
-
-    --color-label-gradient: linear-gradient(
-      90deg,
-      hsla(238, 100%, 71%, 1) 0%,
-      hsla(295, 100%, 84%, 1) 100%
-    );
-
-    --h1-size-sm: 56px;
-    --h1-size-md: 60px;
-    --h1-size-lg: 64px;
-
-    --h2-size-sm: 48px;
-    --h2-size-md: 52px;
-    --h2-size-lg: 56px;
-
-    --h3-size-sm: 40px;
-    --h3-size-md: 44px;
-    --h3-size-lg: 48px;
-
-    --h4-size-sm: 32px;
-    --h4-size-md: 36px;
-    --h4-size-lg: 40px;
-
-    --h5-size-sm: 24px;
-    --h5-size-md: 28px;
-    --h5-size-lg: 32px;
-
-    --h6-size-sm: 16px;
-    --h6-size-md: 20px;
-    --h6-size-lg: 24px;
-
-    --extra-large-size-sm: 16px;
-    --extra-large-size-md: 18px;
-    --extra-large-size-lg: 20px;
-
-    --large-size: 18px;
-    --medium-size: 16px;
-    --small-size: 14px;
-    --extra-small-size: 12px;
   }
 }

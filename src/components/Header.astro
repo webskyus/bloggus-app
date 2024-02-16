@@ -1,48 +1,116 @@
 ---
 import HeaderLink from "@/components/HeaderLink.astro";
+import {GITHUB} from "@/utils/consts";
+import Icon from "@/components/Icon.astro";
+import {LINKEDIN} from "@/utils/consts";
 ---
 
 <header
-    class={` 
-        flex items-center
-        bg-grayscale-20 pb-[22px] pl-[24px] pr-[24px]
-        pt-[22px]
-    `}
+        class={` 
+            flex justify-between items-center
+            pb-[20px] pl-[24px] pr-[24px]
+            pt-[20px] 
+        `}
 >
+    <nav class={`flex items-center`}>
+        <a href={GITHUB} target="_blank" class={'mr-[12px]'}>
+            <Icon icon="github"/>
+        </a>
+        <a href={LINKEDIN} target="_blank">
+            <Icon icon="linkedin"/>
+        </a>
+    </nav>
 
-  <nav class={"flex w-[100%]"}>
-    <ul
-        class={`
-                    ml-auto flex flex-row items-center
+    <a href="/" class={`font-thin text-[22px]`}>
+        Bloggus
+    </a>
+
+    <nav class={"relative"}>
+        <button data-js-hamburger-menu class={`text-gray-500 w-10 h-10 relative focus:outline-none bg-white`}>
+            <span class={`block w-10 absolute left-1/2 top-1/2  transform  -translate-x-1/2 -translate-y-1/2`}>
+                <span class={`pointer-events-none select-none block absolute h-0.5 w-7 bg-current transform transition duration-500 ease-in-out -translate-y-1.5`}/>
+                <span class={`pointer-events-none select-none block absolute h-0.5 w-7 bg-current transform transition duration-500 ease-in-out`}/>
+                <span class={`pointer-events-none select-none block absolute h-0.5 w-7 bg-current transform transition duration-500 ease-in-out translate-y-1.5`}/>
+            </span>
+        </button>
+        <ul data-js-menu
+            class={`
+                    absolute top-[40px] right-[12px] z-10 
+                    hidden flex-col items-center 
+                    w-[200px]
+                    border-[2px] border-solid border-pink-400 bg-gray-50
                 `}
-    >
-      <li
-          class={`
-                            p-[6px] pl-[12px] pr-[12px] 
-                            font-medium
-                            text-grayscale-100 transition-all
-                            hover:text-primary 
-                            dark:text-grayscale-10 dark:hover:text-primary 
-                            
-                           
+        >
+            <li
+                    class={`
+                            w-[100%] p-[12px] pl-[12px] pr-[12px] 
+                            border-b-[1px] border-solid border-pink-400
+                            transition-all hover:text-pink-400
                         `}
-      >
-        <HeaderLink href="/">Home</HeaderLink>
-      </li>
-      <li
-          class={`
-                            p-[6px] pl-[12px] pr-[12px] 
-                            font-medium
-                            text-grayscale-100 transition-all
-                            hover:text-primary 
-                            dark:text-grayscale-10 dark:hover:text-primary 
-                            
-                           
+            >
+                <HeaderLink href="/">Home</HeaderLink>
+            </li>
+            <li
+                    class={`
+                            w-[100%] p-[12px] pl-[12px] pr-[12px] 
+                            border-b-[1px] border-solid border-pink-400
+                            transition-all hover:text-pink-400
                         `}
-      >
-        <HeaderLink href="/blog">Posts</HeaderLink>
-      </li>
-    </ul>
-  </nav>
+            >
+                <HeaderLink href="/">Hi-Tech</HeaderLink>
+            </li>
+            <li
+                    class={`
+                            w-[100%] p-[12px] pl-[12px] pr-[12px] 
+                            border-b-[1px] border-solid border-pink-400
+                            transition-all hover:text-pink-400
+                        `}
+            >
+                <HeaderLink href="/">Games</HeaderLink>
+            </li>
+            <li
+                    class={`
+                            w-[100%] p-[12px] pl-[12px] pr-[12px] 
+                            border-b-[1px] border-solid border-pink-400
+                            transition-all hover:text-pink-400
+                        `}
+            >
+                <HeaderLink href="/">Music</HeaderLink>
+            </li>
+            <li
+                    class={`
+                            w-[100%] p-[12px] pl-[12px] pr-[12px] 
+                            border-b-[1px] border-solid border-pink-400
+                            transition-all hover:text-pink-400
+                        `}
+            >
+                <HeaderLink href="/">Sport</HeaderLink>
+            </li>
+            <li
+                    class={`
+                            w-[100%] p-[12px] pl-[12px] pr-[12px] 
+                            transition-all hover:text-pink-400
+                        `}
+            >
+                <HeaderLink href="/">Movie</HeaderLink>
+            </li>
+        </ul>
+    </nav>
 
 </header>
+
+<script>
+    const menuButton = document.querySelector("[data-js-hamburger-menu]");
+    const menu = document.querySelector('[data-js-menu]');
+
+    menuButton.addEventListener('click', () => {
+        menu.classList.toggle('!flex');
+    });
+
+    window.addEventListener('click', (e) => {
+        if (e.target !== menuButton) {
+            menu.classList.add('hidden');
+            menu.classList.remove('flex', '!flex');
+        }
+    })
+</script>

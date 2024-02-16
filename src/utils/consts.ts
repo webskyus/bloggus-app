@@ -3,3 +3,7 @@
 
 export const SITE_TITLE = 'Bloggus'
 export const SITE_DESCRIPTION = 'Welcome to my website!'
+
+export const GITHUB = 'https://github.com/webskyus/'
+
+export const LINKEDIN = 'https://www.linkedin.com/in/webskyus/'
