@@ -5,7 +5,7 @@ import Icon from "@/components/Icon.astro";
 import { LINKEDIN } from "@/utils/consts";
 import { PAGE_NAME, URLS } from "../utils/consts";
 
-const nav = [
+const nav: {title: PAGE_NAME, url: `/${string}`}[] = [
   {
     title: PAGE_NAME.HOME,
     url: URLS[PAGE_NAME.HOME],
@@ -115,8 +115,6 @@ const nav = [
 </header>
 
 <script>
-  import {HTMLElement} from "node-html-parser";
-
   const init = () => {
     const menuButton: HTMLButtonElement | null = document.querySelector("[data-js-hamburger-menu]");
     const menu: Element | null = document.querySelector("[data-js-menu]");
