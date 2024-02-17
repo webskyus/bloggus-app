@@ -5,7 +5,6 @@ import {POST_TYPE} from "@/utils/consts";
 import {random} from "@/utils/utils";
 import {PAGES_HEAD_INFO} from "@/utils/consts";
 import PageHeadInfo from "@/components/PageHeadInfo.astro";
-import {PAGE_NAME} from "../../utils/consts";
 import Post from "../../components/PostCard.astro";
 
 export async function getStaticPaths() {
@@ -14,7 +13,6 @@ export async function getStaticPaths() {
     return categories.flatMap((category: PAGE_CATEGORY) => {
         const filteredPosts = allPosts.filter((post) => {
             if (post.frontmatter.category === category) {
-                console.log('dd.post', post)
                 return post;
             }
         });
@@ -64,7 +62,7 @@ const {category} = Astro.params;
                                                       authorAvatar={post.frontmatter.authorAvatar}
                                                       postThumbnail={post.frontmatter.image}
                                                       tags={post.frontmatter.tags}
-                                                      postSlug={post.slug}
+                                                      postSlug={post.frontmatter.slug}
                                                       postCategory={post.frontmatter.category}
                                                       postVisualType={getPostVisualType(max, min)}/>
                                         )
