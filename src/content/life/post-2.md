@@ -35,4 +35,3 @@ Resilience is not the absence of challenges but the strength to face them head-o
 Happy exploring, and may your journey be marked by resilience and triumph!
 
 ---
-

@@ -4,7 +4,13 @@ description: "Explore the revolutionary field of quantum computing, where qubits
 pubDate: "Avg 12, 2023"
 image: "/images/hi-tech/1.jpg"
 category: "hi-tech"
-tags: ["Quantum Computing", "Qubits", "Future Technology", "Computational Revolution"]
+tags:
+  [
+    "Quantum Computing",
+    "Qubits",
+    "Future Technology",
+    "Computational Revolution",
+  ]
 author: "GraceTurner"
 authorTwitter: "@Turner"
 authorAvatar: "/images/authors/1.jpg"
@@ -35,4 +41,3 @@ As quantum computing emerges from the realm of theory to practical applications,
 Happy exploring, and may your curiosity lead you to the quantum frontiers!
 
 ---
-

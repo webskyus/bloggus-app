@@ -4,7 +4,8 @@ description: "Immerse yourself in the visual tapestry of anime, where vibrant co
 pubDate: "Jul 11, 2023"
 image: "/images/anime/3.jpg"
 category: "anime"
-tags: ["Anime Art", "Visual Storytelling", "Emotional Impact", "Manga Adaptations"]
+tags:
+  ["Anime Art", "Visual Storytelling", "Emotional Impact", "Manga Adaptations"]
 author: "Marion Watson"
 authorTwitter: "@ArtfulAnimator"
 authorAvatar: "/images/authors/3.jpg"

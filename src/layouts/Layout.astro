@@ -1,31 +1,27 @@
 ---
-import type {CollectionEntry} from "astro:content";
 import BaseHead from "../components/Head.astro";
 import Header from "@/components/Header.astro";
-import styles from '@/styles/global.css';
-import {ViewTransitions} from "astro:transitions";
+import styles from "@/styles/global.css";
+import { ViewTransitions } from "astro:transitions";
 
-type Props = CollectionEntry<"blog">["data"];
 
 const {
-    title = "Bloggus | Astro App",
-    description = "Bloggus it's web app where you can find a lot of post about your interests",
-    pubDate,
-    image
+  title = "Bloggus | Astro App",
+  description = "Bloggus it's web app where you can find a lot of post about your interests",
 } = Astro.props;
 ---
 
 <html lang="en">
-<head>
-    <BaseHead title={title} description={description}/>
-    <ViewTransitions/>
-</head>
+  <head>
+    <BaseHead title={title} description={description} />
+    <ViewTransitions />
+  </head>
 
-<body>
-<Header/>
+  <body>
+    <Header />
 
-<main class="pl-[24px] pr-[24px]">
-    <slot/>
-</main>
-</body>
+    <main class="pl-[24px] pr-[24px]">
+      <slot />
+    </main>
+  </body>
 </html>

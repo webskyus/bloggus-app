@@ -4,7 +4,13 @@ description: "Embark on a cinematic journey through the evolution of modern bloc
 pubDate: "Apr 25, 2023"
 image: "/images/movie/2.jpg"
 category: "movie"
-tags: ["Blockbusters", "Special Effects", "Cinematic Universes", "Evolution of Cinema"]
+tags:
+  [
+    "Blockbusters",
+    "Special Effects",
+    "Cinematic Universes",
+    "Evolution of Cinema",
+  ]
 author: "Peter Wilson"
 authorTwitter: "@PeterWilson"
 authorAvatar: "/images/authors/3.jpg"
@@ -35,4 +41,3 @@ Modern blockbusters represent a cinematic journey marked by technological innova
 Happy exploring, and may the magic of modern blockbusters continue to captivate audiences worldwide!
 
 ---
-

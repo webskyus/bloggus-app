@@ -1,33 +1,36 @@
 ---
-import {POST_TYPE, URLS} from "@/utils/consts";
-import {random} from "../utils/utils";
-interface Props {
-    title: string
-    tags: string
-    author: string
-    date: string
-    image: string
-    authorAvatar: string
-    postThumbnail: string
-    postVisualType: POST_TYPE
-    postCategory: URLS,
-    postSlug: string
+import {getFormattedDate} from "../utils/utils";
+import { POST_TYPE, URLS } from "@/utils/consts";
+
+export interface PostProps {
+  title: string;
+  tags: string;
+  author: string;
+  date: Date;
+  authorAvatar: string;
+  postThumbnail: string;
+  postVisualType: POST_TYPE;
+  postCategory: typeof URLS;
+  postSlug: string;
 }
 
 const {
-    title = 'Boost your conversion rate',
-    tags = ['Hi-Tech', 'Sports'],
-    author = 'Kate Horwitz',
-    date = 'Mar 16, 2024',
-    authorAvatar = 'https://randomuser.me/api/portraits/women/34.jpg',
-    postThumbnail = 'https://picsum.photos/201/301',
-    postVisualType = POST_TYPE.POST_SM,
-    postCategory,
-    postSlug
-} = Astro.props as Props;
+  title ,
+  tags ,
+  author ,
+  date,
+  authorAvatar ,
+  postThumbnail ,
+  postVisualType = POST_TYPE.POST_SM,
+  postCategory,
+  postSlug,
+} = Astro.props as PostProps;
+
+const getFullPublishDate = getFormattedDate(date);
 ---
 
-<article class={`
+<article
+  class={`
                   relative 
                   ${postVisualType} mb-[16px]
                   
@@ -37,41 +40,60 @@ const {
                   
                   after:absolute after:top-[0] after:bottom-[0] after:right-[0] 
                   after:left-[0] after:bg-gray-900 after:opacity-50 after:transition-all
-              `}>
-    <a href={`${postCategory}${postSlug}`}>
-        <div class={`relative flex flex-col h-full p-[8px] md:p-[16px] z-10`}>
-           <span class={`
+              `}
+>
+  <a href={`${postCategory}${postSlug}`}>
+    <div class={`relative flex flex-col h-full p-[8px] md:p-[16px] z-10`}>
+      <span
+        class={`
                    absolute top-0 right-0 
                    flex items-center
                    p-[4px] pl-[8px] pr-[8px] 
                    mt-[20px] mr-[16px]
                    font-light text-white 
                    border-b-[4px] border-b-pink-400 rounded-[2px]
-           `}>
-               {tags[0]}
-               <span class={`w-[4px] h-[4px] ml-[4px] mr-[4px] rounded-full bg-white`}/>
-               {tags.length ? `+${tags.length}` : ''}
-           </span>
+           `}
+      >
+        {tags[0]}
+        <span class={`w-[4px] h-[4px] ml-[4px] mr-[4px] rounded-full bg-white`}
+        ></span>
+        {tags.length ? `+${tags.length}` : ""}
+      </span>
 
-            <div class={`flex items-center mt-auto`}>
-                <div class={`flex items-center  rounded-full`}>
-                    <img class={`rounded-full float-left h-full`} height="24" width="24"
-                         src={authorAvatar}>
-                    <span class={`ml-[4px] font-light text-[14px] text-white line-clamp-1`}>{author}</span>
-                </div>
-
-                <span class={`w-2 h-2 ml-[8px] rounded-full bg-yellow-400`}/>
-
-                <time class={`ml-[8px] font-light text-[14px] text-white line-clamp-1`}
-                      datetime={date}>
-                    {date}
-                </time>
-            </div>
-
-            <h3 class={`font-bold mt-[8px] text-white leading-[20px] line-clamp-3`}>{title}</h3>
+      <div class={`flex items-center mt-auto`}>
+        <div class={`flex items-center  rounded-full`}>
+          <img
+            class={`rounded-full float-left h-full`}
+            height="24"
+            width="24"
+            src={authorAvatar}
+          />
+          <span
+            class={`ml-[4px] font-light text-[14px] text-white line-clamp-1`}
+            >{author}</span
+          >
         </div>
 
-        <img src={postThumbnail} style={{objectFit: "cover"}}
-             class={`absolute z-0 top-0 left-0 bottom-0 right-0 w-full h-full`} alt={title}>
-    </a>
+        <span class={`w-2 h-2 ml-[8px] rounded-full bg-yellow-400`}></span>
+
+        <time
+          class={`ml-[8px] font-light text-[14px] text-white line-clamp-1`}
+          datetime={getFullPublishDate}
+        >
+            {getFullPublishDate}
+        </time>
+      </div>
+
+      <h3 class={`font-bold mt-[8px] text-white leading-[20px] line-clamp-3`}>
+        {title}
+      </h3>
+    </div>
+
+    <img
+      src={postThumbnail}
+      style={{ objectFit: "cover" }}
+      class={`absolute z-0 top-0 left-0 bottom-0 right-0 w-full h-full`}
+      alt={title}
+    />
+  </a>
 </article>

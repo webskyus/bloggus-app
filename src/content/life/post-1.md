@@ -35,4 +35,3 @@ Mindfulness is not just a practice; it's a way of life that transforms how we pe
 Happy exploring, and may mindfulness be your companion on the journey to inner tranquility!
 
 ---
-

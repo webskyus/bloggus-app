@@ -4,7 +4,13 @@ description: "Immerse yourself in the timeless beauty of classical music, where 
 pubDate: "Oct 20, 2023"
 image: "/images/music/2.jpg"
 category: "music"
-tags: ["Classical Music", "Emotional Depth", "Musical Masterpieces", "Timeless Beauty"]
+tags:
+  [
+    "Classical Music",
+    "Emotional Depth",
+    "Musical Masterpieces",
+    "Timeless Beauty",
+  ]
 author: "Quinn Davis"
 authorTwitter: "@Quinn"
 authorAvatar: "/images/authors/2.jpg"
@@ -35,4 +41,3 @@ Classical music transcends time, inviting us to connect with the emotions and ex
 Happy exploring, and may the beauty of classical music enrich your life!
 
 ---
-

@@ -35,4 +35,3 @@ Indie games are not just games; they are expressions of creativity and passion. 
 Happy exploring, and may you uncover countless indie gems on your gaming adventures!
 
 ---
-
