@@ -1,7 +1,7 @@
 ---
 title: "Harmony Unleashed: Exploring the Magic of Jazz Music"
 description: "Immerse yourself in the soulful world of jazz, where improvisation, intricate rhythms, and expressive melodies come together to create a mesmerizing musical experience."
-pubDate: "Mar 08, 2023"
+publishedDate: "Mar 08, 2023"
 image: "/images/music/1.jpg"
 category: "music"
 tags: ["Jazz", "Music Exploration", "Improvisation", "Expressive Melodies"]

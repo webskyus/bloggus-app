@@ -1,7 +1,7 @@
 ---
 title: "Demystifying Cryptocurrency: Navigating the Digital Frontier"
 description: "Explore the world of cryptocurrency, unraveling the complexities and shedding light on the future of digital finance."
-pubDate: "Sep 11, 2023"
+publishedDate: "Sep 11, 2023"
 image: "/images/finance/1.jpg"
 category: "finance"
 tags: ["Cryptocurrency", "Blockchain", "Digital Finance", "Investing"]

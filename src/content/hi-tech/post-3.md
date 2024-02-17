@@ -1,7 +1,7 @@
 ---
 title: "5G Revolution: Unleashing the Power of Hyper-Connectivity"
 description: "Step into the era of hyper-connectivity with the 5G revolution, where lightning-fast speeds, low latency, and massive device connectivity redefine the way we communicate, work, and experience the digital world."
-pubDate: "Jun 4, 2023"
+publishedDate: "Jun 4, 2023"
 image: "/images/hi-tech/3.jpg"
 category: "hi-tech"
 tags:

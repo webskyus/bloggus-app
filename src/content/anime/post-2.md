@@ -1,7 +1,7 @@
 ---
 title: "Exploring the World of Anime: A Journey into Captivating Realms"
 description: "Dive into the vibrant and enchanting universe of anime, where imagination knows no bounds and storytelling reaches new heights."
-pubDate: "Dec 19, 2022"
+publishedDate: "Dec 19, 2022"
 image: "/images/anime/2.jpg"
 category: "anime"
 tags: ["Japanese Animation", "Anime Culture", "Fantasy Worlds", "Otaku"]

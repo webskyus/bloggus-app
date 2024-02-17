@@ -1,7 +1,7 @@
 ---
 title: "AI in Healthcare: Transforming Patient Care with Intelligent Systems"
 description: "Discover the intersection of artificial intelligence and healthcare, where intelligent systems, machine learning, and data analytics are revolutionizing patient care, diagnostics, and medical research."
-pubDate: "Nov 6, 2023"
+publishedDate: "Nov 6, 2023"
 image: "/images/hi-tech/2.jpg"
 category: "hi-tech"
 tags:

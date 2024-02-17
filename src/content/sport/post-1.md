@@ -1,7 +1,7 @@
 ---
 title: "The Thrill of Victory: Legendary Moments in Sports History"
 description: "Relive the heart-pounding excitement of legendary moments in sports history, from iconic game-winning plays to record-breaking achievements. Join us in celebrating the athletes and teams that etched their names in the annals of sporting greatness."
-pubDate: "May 18, 2023"
+publishedDate: "May 18, 2023"
 image: "/images/sport/1.jpg"
 category: "sport"
 tags:

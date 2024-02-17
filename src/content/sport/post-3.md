@@ -1,7 +1,7 @@
 ---
 title: "Beyond the Game: Sportsmanship and Acts of Kindness in Sports"
 description: "Shift the spotlight beyond the scoreboards and trophies as we explore the heartwarming side of sports – acts of sportsmanship, kindness, and compassion that transcend competition. Join us in celebrating the moments that showcase the true spirit of camaraderie in sports."
-pubDate: "Feb 01, 2024"
+publishedDate: "Feb 01, 2024"
 image: "/images/sport/3.jpg"
 category: "sport"
 tags:

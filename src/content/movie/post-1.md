@@ -1,7 +1,7 @@
 ---
 title: "Cinematic Marvels: Exploring the Golden Age of Hollywood"
 description: "Take a nostalgic journey through the Golden Age of Hollywood, where iconic stars, timeless classics, and cinematic brilliance shaped the foundation of the film industry, leaving an indelible mark on the history of cinema."
-pubDate: "Aug 12, 2023"
+publishedDate: "Aug 12, 2023"
 image: "/images/movie/1.jpg"
 category: "movie"
 tags:

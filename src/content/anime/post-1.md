@@ -1,7 +1,7 @@
 ---
 title: "The Enchanting World of Studio Ghibli"
 description: "A journey into the magical films of Studio Ghibli, from spirited forests to flying castles."
-pubDate: "Jul 01, 2021"
+publishedDate: "Jul 01, 2021"
 image: "/images/anime/1.jpg"
 category: "anime"
 tags: ["Studio Ghibli", "Animation", "Hayao Miyazaki"]
