@@ -5,8 +5,10 @@ pubDate: "Sep 11, 2023"
 image: "/images/finance/1.jpg"
 category: "finance"
 tags: ["Cryptocurrency", "Blockchain", "Digital Finance", "Investing"]
-author: "CryptoExplorer"
+author: "Alice Johnson"
+authorTwitter: "@AliceTwitter"
 authorAvatar: "/images/authors/2.jpg"
+quote: "Posts are the windows to the soul of the internet."
 ---
 
 ## Introduction

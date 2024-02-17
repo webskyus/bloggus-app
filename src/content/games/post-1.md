@@ -5,8 +5,10 @@ pubDate: "Sep 1, 2023"
 image: "/images/games/1.jpg"
 category: "games"
 tags: ["Gaming Evolution", "Virtual Reality", "Immersive Experiences", "Future of Gaming"]
-author: "GameTrailblazer"
+author: "Diana Rodriguez"
+authorTwitter: "@DianaT"
 authorAvatar: "/images/authors/1.jpg"
+quote: "In the realm of posts, ideas come to life and dreams take flight."
 ---
 
 ## Introduction

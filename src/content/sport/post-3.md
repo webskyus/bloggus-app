@@ -5,8 +5,10 @@ pubDate: "Feb 01, 2024"
 image: "/images/sport/3.jpg"
 category: "sport"
 tags: ["Sportsmanship", "Acts of Kindness", "Camaraderie in Sports", "Heartwarming Moments"]
-author: "CamaraderieChampion"
-authorAvatar: "/images/authors/1.jpg"
+author: "Peter Clark"
+authorTwitter: "@CamaraderieChampion"
+authorAvatar: "/images/authors/3.jpg"
+quote: "In every post, there's a story waiting to be shared."
 ---
 
 ## Introduction

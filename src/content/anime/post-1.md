@@ -4,9 +4,11 @@ description: "A journey into the magical films of Studio Ghibli, from spirited f
 pubDate: "Jul 01, 2021"
 image: "/images/anime/1.jpg"
 category: "anime"
-tags: ["Studio Ghibli", "animation", "Hayao Miyazaki"]
-author: "AnimeLover123"
+tags: ["Studio Ghibli", "Animation", "Hayao Miyazaki"]
+author: "Erica Shaw"
+authorTwitter: "@AnimeLover123"
 authorAvatar: "/images/authors/1.jpg"
+quote: "In every post, there's a story waiting to be shared."
 ---
 
 # The Enchanting World of Studio Ghibli

@@ -5,8 +5,10 @@ pubDate: "Jun 15, 2023"
 image: "/images/music/3.jpg"
 category: "music"
 tags: ["World Music", "Cultural Fusion", "Global Sounds", "Musical Diversity"]
-author: "WorldHarmonies"
-authorAvatar: "/images/authors/1.jpg"
+author: "Sam  Davis"
+authorTwitter: "@Sam "
+authorAvatar: "/images/authors/3.jpg"
+quote: "Every post is a contribution to the ever-evolving narrative of the online world."
 ---
 
 ## Introduction

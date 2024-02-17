@@ -5,8 +5,10 @@ pubDate: "Jan 4, 2023"
 image: "/images/games/2.jpg"
 category: "games"
 tags: ["Indie Games", "Gaming Community", "Artistic Brilliance", "Hidden Gems"]
-author: "IndieExplorer"
+author: "Eva Thompson"
+authorTwitter: "@Eva"
 authorAvatar: "/images/authors/2.jpg"
+quote: "A post is a conversation starter in the grand symphony of online discussions."
 ---
 
 ## Introduction

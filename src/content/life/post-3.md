@@ -5,8 +5,10 @@ pubDate: "Sep 03, 2023"
 image: "/images/life/3.jpg"
 category: "life"
 tags: ["Gratitude", "Well-being", "Joyful Living", "Mindful Appreciation"]
-author: "GratefulHeart"
-authorAvatar: "/images/authors/1.jpg"
+author: "Leo White"
+authorTwitter: "@LW"
+authorAvatar: "/images/authors/3.jpg"
+quote: "Behind every post is a piece of the author's heart, given to the world."
 ---
 
 ## Introduction

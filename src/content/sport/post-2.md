@@ -5,8 +5,10 @@ pubDate: "Sep 08, 2023"
 image: "/images/sport/2.jpg"
 category: "sport"
 tags: ["Underdog Triumphs", "Adversity Overcome", "Inspiring Stories", "Unlikely Victories"]
-author: "UnderdogChampion"
-authorAvatar: "/images/authors/1.jpg"
+author: "Ulysses Clark"
+authorTwitter: "@Clark"
+authorAvatar: "/images/authors/2.jpg"
+quote: "In the symphony of social media, posts are the notes that create the melody of connection."
 ---
 
 ## Introduction

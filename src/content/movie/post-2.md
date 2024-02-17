@@ -5,8 +5,10 @@ pubDate: "Apr 25, 2023"
 image: "/images/movie/2.jpg"
 category: "movie"
 tags: ["Blockbusters", "Special Effects", "Cinematic Universes", "Evolution of Cinema"]
-author: "CinephileExplorer"
-authorAvatar: "/images/authors/1.jpg"
+author: "Nancy Harris"
+authorTwitter: "@NH"
+authorAvatar: "/images/authors/2.jpg"
+quote: "In the world of posts, ideas collide, and creativity knows no bounds."
 ---
 
 ## Introduction

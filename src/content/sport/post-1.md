@@ -5,8 +5,10 @@ pubDate: "May 18, 2023"
 image: "/images/sport/1.jpg"
 category: "sport"
 tags: ["Sports History", "Legendary Moments", "Game-Winning Plays", "Record-Breaking Achievements"]
-author: "SportsEnthusiast"
+author: "Tina Johnson"
+authorTwitter: "@Johnson"
 authorAvatar: "/images/authors/1.jpg"
+quote: "Through posts, we navigate the labyrinth of information, discovering new perspectives."
 ---
 
 

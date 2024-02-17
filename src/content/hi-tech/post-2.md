@@ -5,8 +5,10 @@ pubDate: "Nov 6, 2023"
 image: "/images/hi-tech/2.jpg"
 category: "hi-tech"
 tags: ["Artificial Intelligence", "Healthcare Technology", "Machine Learning", "Medical Innovation"]
-author: "AIDoctorate"
+author: "Helen Miller"
+authorTwitter: "@Miller"
 authorAvatar: "/images/authors/2.jpg"
+quote: "The art of posting lies in weaving words into a tapestry of meaning."
 ---
 
 ## Introduction

@@ -1,12 +1,14 @@
 ---
 title: "The Art of Anime: A Visual Symphony of Colors and Emotions"
-description: "Immerse yourself in the visual tapestry of anime, where vibrant colors and emotional depth converge to create a unique artistic experience."
+description: "Immerse yourself in the visual tapestry of [category], where vibrant colors and emotional depth converge to create a unique artistic experience."
 pubDate: "Jul 11, 2023"
 image: "/images/anime/3.jpg"
 category: "anime"
 tags: ["Anime Art", "Visual Storytelling", "Emotional Impact", "Manga Adaptations"]
-author: "ArtfulAnimator"
+author: "Marion Watson"
+authorTwitter: "@ArtfulAnimator"
 authorAvatar: "/images/authors/3.jpg"
+quote: "A well-crafted post is a journey into the author's mind."
 ---
 
 ## Introduction

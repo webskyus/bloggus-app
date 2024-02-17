@@ -5,8 +5,10 @@ pubDate: "Apr 25, 2023"
 image: "/images/movie/2.jpg"
 category: "movie"
 tags: ["Blockbusters", "Special Effects", "Cinematic Universes", "Evolution of Cinema"]
-author: "CinephileExplorer"
-authorAvatar: "/images/authors/1.jpg"
+author: "Peter Wilson"
+authorTwitter: "@PeterWilson"
+authorAvatar: "/images/authors/3.jpg"
+quote: "A single post can spark a thousand conversations, igniting the flames of connection."
 ---
 
 ## Introduction

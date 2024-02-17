@@ -5,8 +5,10 @@ pubDate: "Jun 4, 2023"
 image: "/images/hi-tech/3.jpg"
 category: "hi-tech"
 tags: ["5G Technology", "Hyper-Connectivity", "Internet of Things", "Digital Transformation"]
-author: "ConnectivityMaestro"
+author: "Ivan Lee"
+authorTwitter: "@Lee"
 authorAvatar: "/images/authors/3.jpg"
+quote: "In the vast sea of content, a post is a beacon that guides and inspires."
 ---
 
 ## Introduction

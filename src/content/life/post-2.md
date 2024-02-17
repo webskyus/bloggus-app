@@ -5,8 +5,10 @@ pubDate: "May 22, 2023"
 image: "/images/life/2.jpg"
 category: "life"
 tags: ["Resilience", "Adversity", "Personal Growth", "Strength"]
-author: "ResilientSoul"
-authorAvatar: "/images/authors/1.jpg"
+author: "Katherine Brown"
+authorTwitter: "@Katherine"
+authorAvatar: "/images/authors/2.jpg"
+quote: "Posts are the heartbeat of online communities, pulsating with shared emotions."
 ---
 
 ## Introduction

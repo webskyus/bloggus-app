@@ -1,0 +1,260 @@
+---
+import {type CollectionEntry, getCollection} from "astro:content";
+import Layout from "@/layouts/Layout.astro";
+import PageHeadInfo from "@/components/PageHeadInfo.astro";
+import {random} from "@/utils/utils";
+
+export async function getStaticPaths() {
+    const animePosts = await getCollection("anime");
+    const financePosts = await getCollection("finance");
+    const lifePosts = await getCollection("life");
+    const moviePosts = await getCollection("movie");
+    const musicPosts = await getCollection("music");
+    const gamesPosts = await getCollection("games");
+    const hiTechPosts = await getCollection("hi-tech");
+    const sportPosts = await getCollection("sport");
+    const posts = [
+        ...animePosts,
+        ...financePosts,
+        ...lifePosts,
+        ...moviePosts,
+        ...musicPosts,
+        ...gamesPosts,
+        ...hiTechPosts,
+        ...sportPosts
+    ];
+
+    return posts.map((post) => ({
+        params: {
+            slug: post.slug,
+            category: post.data.category
+        },
+        props: post,
+    }));
+}
+
+const post = Astro.props;
+const {
+    title,
+    description,
+    image,
+    author,
+    authorTwitter,
+    quote,
+    tags
+} = post.data;
+const {Content} = await post.render();
+---
+
+<Layout>
+    <section class={`container mx-auto`}>
+        <article class="post-page">
+            <PageHeadInfo title={title} description={description}/>
+
+            <ul class={`flex items-center justify-center`}>
+                {
+                    tags.map((tag) => {
+                        const tagColor = ['blue', 'green', 'yellow', 'orange', 'cyan', 'emerald', 'fuchsia'];
+                        const randomNumb = random(0, tagColor.length - 1);
+                        const randomColor = `bg-${tagColor[randomNumb]}-400`;
+
+                        return (
+                                <li class={`m-0 p-0 list-none`}>
+                                    <a class={`
+                                        flex items-center
+                                        p-[4px] pl-[8px] pr-[8px] 
+                                        mt-[20px] mr-[16px]
+                                        font-light !text-white rounded-[2px]
+                                        ${randomColor}
+                                    `}>
+                                        {tag}
+                                    </a>
+                                </li>
+                        )
+                    })
+                }
+            </ul>
+
+            <div class={`flex items-center flex-wrap justify-center m-auto mb-[32px]`}>
+                <div class={`flex items-center mr-[16px] rounded-full`}>
+                    <img class={`rounded-full float-left h-full`} height="64" width="64"
+                         src={`https://randomuser.me/api/portraits/women/${random(0, 100)}.jpg`}>
+                    <p class={`flex flex-col !mb-[8px] !ml-[8px]`}>
+                        <span class={`font-medium text-[18px] mt-[10px] mb-[-10px]`}>{author}</span>
+                        <span class={`italic text-[14px] font-light`}>{authorTwitter}</span>
+                    </p>
+                </div>
+
+                <blockquote class={`max-w-[700px] !text-[24px] !leading-[28px] !mb-0`}>
+                    {quote}
+                </blockquote>
+            </div>
+
+            <div class="hero-image">
+                {image && <img width={"100%"} height={400} src={image} alt={title}/>}
+            </div>
+
+
+            <Content/>
+        </article>
+    </section>
+</Layout>
+
+<style is:inline>
+    .hero-image {
+        width: 100%;
+    }
+
+    .hero-image img {
+        display: block;
+        height: 400px;
+        margin: 0 auto;
+        margin-bottom: 16px;
+        border-radius: 6px;
+        object-fit: cover;
+    }
+
+    .post-page {
+        padding-bottom: 100px;
+    }
+
+    .post-page p {
+        font-size: 24px;
+        line-height: 32px;
+        margin-bottom: 42px;
+    }
+
+    .post-page #h1,
+    .post-page h1 {
+        font-size: 42px;
+        margin-bottom: 16px;
+    }
+
+    .post-page #h2,
+    .post-page h2 {
+        font-size: 38px;
+        margin-bottom: 16px;
+    }
+
+    .post-page #h3,
+    .post-page h3 {
+        font-size: 34px;
+        margin-bottom: 16px;
+    }
+
+    .post-page #h4,
+    .post-page h4 {
+        font-size: 30px;
+        margin-bottom: 16px;
+    }
+
+    .post-page #h5,
+    .post-page h5 {
+        font-size: 26px;
+        margin-bottom: 16px;
+    }
+
+    .post-page #h6,
+    .post-page h6 {
+        font-size: 22px;
+        margin-bottom: 16px;
+    }
+
+
+    .post-page blockquote {
+        margin: 0;
+        margin-bottom: 24px;
+        padding: 0 0 0 20px;
+        border-left: 4px solid rebeccapurple;
+    }
+
+    .post-page blockquote p {
+        font-size: 20px;
+        font-style: italic;
+        font-weight: 300;
+    }
+
+    .post-page pre {
+        margin-bottom: 24px;
+        padding: 16px;
+        border-radius: 6px;
+        overflow-x: auto;
+    }
+
+    .post-page table th, .post-page table td {
+        color: #383636;
+        border: 1px solid #eee;
+        padding: 12px 35px;
+        border-collapse: collapse;
+    }
+
+    .post-page table th {
+        background: rgba(244 114 182);
+        color: #fff;
+        text-transform: uppercase;
+        font-size: 12px;
+
+        &.last {
+            border-right: none;
+        }
+    }
+
+    .post-page table tr {
+        &:hover {
+            background: #f4f4f4;
+
+            td {
+                color: #383636;
+            }
+        }
+    }
+
+    .post-page table {
+        margin: 25px auto;
+        border-collapse: collapse;
+        border: 1px solid #eee;
+        border-bottom: 2px solid rgb(244 114 182);
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.10),
+        0 10px 20px rgba(0, 0, 0, 0.05),
+        0 20px 20px rgba(0, 0, 0, 0.05),
+        0 30px 20px rgba(0, 0, 0, 0.05);
+    }
+
+    .post-page ul {
+        list-style-type: disc;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 0;
+        margin-inline-end: 0;
+        padding-inline-start: 40px;
+    }
+
+    .post-page ol li,
+    .post-page ul li {
+        margin-bottom: 8px;
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+    .post-page ul ul {
+        list-style-type: circle;
+    }
+
+    .post-page ol {
+        display: block;
+        list-style-type: decimal;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 0;
+        margin-inline-end: 0;
+        padding-inline-start: 40px;
+    }
+
+    .post-page a {
+        cursor: pointer;
+        color: rgb(244 114 182);
+    }
+
+</style>
+
+

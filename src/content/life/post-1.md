@@ -5,8 +5,10 @@ pubDate: "Feb 14, 2024"
 image: "/images/life/1.jpg"
 category: "life"
 tags: ["Mindfulness", "Inner Peace", "Well-being", "Life Satisfaction"]
-author: "MindfulExplorer"
+author: "Jane Taylor"
+authorTwitter: "@Taylor"
 authorAvatar: "/images/authors/1.jpg"
+quote: "A post is a snapshot of the author's mind, frozen in the timeline of the internet."
 ---
 
 ## Introduction

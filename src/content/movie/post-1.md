@@ -5,8 +5,10 @@ pubDate: "Aug 12, 2023"
 image: "/images/movie/1.jpg"
 category: "movie"
 tags: ["Golden Age of Hollywood", "Classic Films", "Cinematic Brilliance", "Iconic Stars"]
-author: "CinemaHistorian"
+author: "Mia Clark"
+authorTwitter: "@MClark"
 authorAvatar: "/images/authors/1.jpg"
+quote: "Posting is an art form, and each post is a masterpiece in its own right."
 ---
 
 ## Introduction

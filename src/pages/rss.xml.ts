@@ -1,5 +1,5 @@
 import rss from '@astrojs/rss'
-import { getCollection } from 'astro:content'
+import {type CollectionEntry, getCollection} from 'astro:content'
 import { SITE_TITLE, SITE_DESCRIPTION } from '@/utils/consts.js'
 
 export const GET = async (context: { site: string }): Promise<Response> => {
@@ -25,7 +25,7 @@ export const GET = async (context: { site: string }): Promise<Response> => {
       ...gamesPosts,
       ...lifePosts,
       ...musicPosts
-    ].map((post: any) => ({
+    ].map((post) => ({
       ...post.data,
       link: `/${post.data.category}/${post.slug}/`
     }))

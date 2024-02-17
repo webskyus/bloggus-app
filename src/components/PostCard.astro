@@ -10,7 +10,8 @@ interface Props {
     authorAvatar: string
     postThumbnail: string
     postVisualType: POST_TYPE
-    postUrl: URLS
+    postCategory: URLS,
+    postSlug: string
 }
 
 const {
@@ -21,7 +22,8 @@ const {
     authorAvatar = 'https://randomuser.me/api/portraits/women/34.jpg',
     postThumbnail = 'https://picsum.photos/201/301',
     postVisualType = POST_TYPE.POST_SM,
-    postUrl = '/'
+    postCategory,
+    postSlug
 } = Astro.props as Props;
 
 const tagColor = ['blue', 'green', 'yellow', 'orange', 'cyan', 'emerald', 'fuchsia'];
@@ -40,7 +42,7 @@ const randomColor = await `bg-${tagColor[randomNumb]}-400`;
                   after:absolute after:top-[0] after:bottom-[0] after:right-[0] 
                   after:left-[0] after:bg-gray-900 after:opacity-50 after:transition-all
               `}>
-    <a href={postUrl}>
+    <a href={`${postCategory}/${postSlug}`}>
         <div class={`relative flex flex-col h-full p-[8px] md:p-[16px] z-10`}>
            <span class={`
                    absolute top-0 right-0 
@@ -74,6 +76,6 @@ const randomColor = await `bg-${tagColor[randomNumb]}-400`;
         </div>
 
         <img src={postThumbnail} style={{objectFit: "cover"}}
-             class={`absolute z-0 top-0 left-0 bottom-0 right-0 w-full h-full`}>
+             class={`absolute z-0 top-0 left-0 bottom-0 right-0 w-full h-full`} alt={title}>
     </a>
 </article>

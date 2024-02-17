@@ -5,8 +5,10 @@ pubDate: "Oct 20, 2023"
 image: "/images/music/2.jpg"
 category: "music"
 tags: ["Classical Music", "Emotional Depth", "Musical Masterpieces", "Timeless Beauty"]
-author: "ClassicalHarmony"
-authorAvatar: "/images/authors/1.jpg"
+author: "Quinn Davis"
+authorTwitter: "@Quinn"
+authorAvatar: "/images/authors/2.jpg"
+quote: "A post is a lantern in the vast darkness of the internet, guiding others through the unknown."
 ---
 
 ## Introduction

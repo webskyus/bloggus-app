@@ -8,7 +8,9 @@ const schema = z.object({
   updatedDate: z.coerce.date().optional(),
   image: z.string().optional(),
   author: z.string().optional(),
+  authorTwitter: z.string().optional(),
   category: z.string().optional(),
+  quote: z.string().optional(),
   authorAvatar: z.string().optional(),
   tags: z.array(z.string())
 })

@@ -5,8 +5,10 @@ pubDate: "Oct 21, 2023"
 image: "/images/finance/3.jpg"
 category: "finance"
 tags: ["Stock Market", "Investing Strategies", "Portfolio Management", "Market Trends"]
-author: "StockSensei"
+author: "Chris Williams"
+authorTwitter: "ChrisTwitter"
 authorAvatar: "/images/authors/3.jpg"
+quote: "Every post is a brushstroke on the canvas of the digital world."
 ---
 
 ## Introduction

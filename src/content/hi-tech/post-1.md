@@ -5,8 +5,10 @@ pubDate: "Avg 12, 2023"
 image: "/images/hi-tech/1.jpg"
 category: "hi-tech"
 tags: ["Quantum Computing", "Qubits", "Future Technology", "Computational Revolution"]
-author: "QuantumPioneer"
+author: "GraceTurner"
+authorTwitter: "@Turner"
 authorAvatar: "/images/authors/1.jpg"
+quote: "Posts are the silent architects shaping the landscape of the web."
 ---
 
 ## Introduction

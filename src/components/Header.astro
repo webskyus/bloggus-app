@@ -100,17 +100,23 @@ import {LINKEDIN} from "@/utils/consts";
 </header>
 
 <script>
-    const menuButton = document.querySelector("[data-js-hamburger-menu]");
-    const menu = document.querySelector('[data-js-menu]');
+    const init = () => {
+        const menuButton = document.querySelector("[data-js-hamburger-menu]");
+        const menu = document.querySelector('[data-js-menu]');
 
-    menuButton.addEventListener('click', () => {
-        menu.classList.toggle('!flex');
-    });
+        menuButton.addEventListener('click', () => {
+            menu.classList.toggle('!flex');
+        });
 
-    window.addEventListener('click', (e) => {
-        if (e.target !== menuButton) {
-            menu.classList.add('hidden');
-            menu.classList.remove('flex', '!flex');
-        }
-    })
+        window.addEventListener('click', (e) => {
+            if (e.target !== menuButton) {
+                menu.classList.add('hidden');
+                menu.classList.remove('flex', '!flex');
+            }
+        })
+    }
+
+    init()
+
+    document.addEventListener("astro:after-swap", init)
 </script>

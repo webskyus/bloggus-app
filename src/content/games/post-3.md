@@ -5,8 +5,10 @@ pubDate: "Apr 5, 2023"
 image: "/images/games/3.jpg"
 category: "games"
 tags: ["Game Design", "Immersive Experiences", "Virtual Worlds", "Player Engagement"]
-author: "DesignMaestro"
+author: "Frank Thompson"
+authorTwitter: "@Frank"
 authorAvatar: "/images/authors/3.jpg"
+quote: "Behind every post is a universe of thoughts waiting to be explored."
 ---
 
 ## Introduction

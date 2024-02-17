@@ -5,8 +5,10 @@ pubDate: "Oct 11, 2023"
 image: "/images/finance/2.jpg"
 category: "finance"
 tags: ["Personal Finance", "Budgeting", "Investment Strategies", "Financial Planning"]
-author: "FinancialNavigator"
+author: "Bella Smith"
+authorTwitter: "@BellaTwitter"
 authorAvatar: "/images/authors/3.jpg"
+quote: "Posting is not just about words; it's about creating an experience."
 ---
 
 ![Personal Finance Guide](https://example.com/personal_finance_guide.jpg)

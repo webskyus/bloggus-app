@@ -5,8 +5,10 @@ pubDate: "Mar 08, 2023"
 image: "/images/music/1.jpg"
 category: "music"
 tags: ["Jazz", "Music Exploration", "Improvisation", "Expressive Melodies"]
-author: "JazzMaestro"
+author: "Olivia Turner"
+authorTwitter: "@OTurner"
 authorAvatar: "/images/authors/1.jpg"
+quote: "Posts are the building blocks of the digital era, constructing the edifice of knowledge."
 ---
 
 
