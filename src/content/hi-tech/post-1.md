@@ -9,6 +9,7 @@ author: "GraceTurner"
 authorTwitter: "@Turner"
 authorAvatar: "/images/authors/1.jpg"
 quote: "Posts are the silent architects shaping the landscape of the web."
+slug: "/post-1"
 ---
 
 ## Introduction

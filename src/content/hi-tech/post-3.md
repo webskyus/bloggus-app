@@ -9,6 +9,7 @@ author: "Ivan Lee"
 authorTwitter: "@Lee"
 authorAvatar: "/images/authors/3.jpg"
 quote: "In the vast sea of content, a post is a beacon that guides and inspires."
+slug: "/post-3"
 ---
 
 ## Introduction

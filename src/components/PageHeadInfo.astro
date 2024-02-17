@@ -1,14 +1,21 @@
 ---
 interface Props {
-    title: string,
-    description: string,
+    title?: string,
+    description?: string,
 }
 
-const {title, description} = Astro.props;
+const {title = 'Home', description = 'We\'ve scoured web rankings and social media to compile the ultimate post list of most important, useful, and entertaining blogs.'} = Astro.props;
 ---
 
 <section class={`mt-[50px] mb-[24px] text-center`}>
-    <h1 class={`mb-[12px] font-bold text-[48px]`}>
+    <h1 class={`
+        relative
+        inline-block
+        
+        mb-[12px] font-bold text-[48px]
+        
+        border-b-[8px] border-b-pink-400
+    `}>
         {title}
     </h1>
 

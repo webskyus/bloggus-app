@@ -3,15 +3,13 @@ import { defineCollection, z } from 'astro:content'
 const schema = z.object({
   title: z.string(),
   description: z.string(),
-  // Transform string to Date object
   pubDate: z.coerce.date(),
-  updatedDate: z.coerce.date().optional(),
-  image: z.string().optional(),
-  author: z.string().optional(),
-  authorTwitter: z.string().optional(),
-  category: z.string().optional(),
-  quote: z.string().optional(),
-  authorAvatar: z.string().optional(),
+  image: z.string(),
+  author: z.string(),
+  authorTwitter: z.string(),
+  category: z.string(),
+  quote: z.string(),
+  authorAvatar: z.string(),
   tags: z.array(z.string())
 })
 
@@ -27,7 +25,7 @@ const finance = defineCollection({
   schema
 })
 
-const sports = defineCollection({
+const sport = defineCollection({
   type: 'content',
   // Type-check formatter using a schema
   schema
@@ -63,4 +61,13 @@ const games = defineCollection({
   schema
 })
 
-export const collections = { anime, finance, sports, life, music, movie, hiTech, games }
+export const collections = {
+  anime,
+  finance,
+  sport,
+  life,
+  music,
+  movie,
+  hiTech,
+  games
+}

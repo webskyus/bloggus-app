@@ -9,6 +9,7 @@ author: "Mia Clark"
 authorTwitter: "@MClark"
 authorAvatar: "/images/authors/1.jpg"
 quote: "Posting is an art form, and each post is a masterpiece in its own right."
+slug: "/post-1"
 ---
 
 ## Introduction

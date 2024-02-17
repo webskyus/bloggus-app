@@ -9,6 +9,7 @@ author: "Olivia Turner"
 authorTwitter: "@OTurner"
 authorAvatar: "/images/authors/1.jpg"
 quote: "Posts are the building blocks of the digital era, constructing the edifice of knowledge."
+slug: "/post-1"
 ---
 
 

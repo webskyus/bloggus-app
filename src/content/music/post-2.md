@@ -9,6 +9,7 @@ author: "Quinn Davis"
 authorTwitter: "@Quinn"
 authorAvatar: "/images/authors/2.jpg"
 quote: "A post is a lantern in the vast darkness of the internet, guiding others through the unknown."
+slug: "/post-2"
 ---
 
 ## Introduction

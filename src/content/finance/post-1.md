@@ -9,6 +9,7 @@ author: "Alice Johnson"
 authorTwitter: "@AliceTwitter"
 authorAvatar: "/images/authors/2.jpg"
 quote: "Posts are the windows to the soul of the internet."
+slug: "/post-1"
 ---
 
 ## Introduction

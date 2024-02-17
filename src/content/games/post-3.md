@@ -9,6 +9,7 @@ author: "Frank Thompson"
 authorTwitter: "@Frank"
 authorAvatar: "/images/authors/3.jpg"
 quote: "Behind every post is a universe of thoughts waiting to be explored."
+slug: "/post-3"
 ---
 
 ## Introduction

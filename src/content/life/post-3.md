@@ -9,6 +9,7 @@ author: "Leo White"
 authorTwitter: "@LW"
 authorAvatar: "/images/authors/3.jpg"
 quote: "Behind every post is a piece of the author's heart, given to the world."
+slug: "/post-3"
 ---
 
 ## Introduction

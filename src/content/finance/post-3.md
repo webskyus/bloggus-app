@@ -9,6 +9,7 @@ author: "Chris Williams"
 authorTwitter: "ChrisTwitter"
 authorAvatar: "/images/authors/3.jpg"
 quote: "Every post is a brushstroke on the canvas of the digital world."
+slug: "/post-3"
 ---
 
 ## Introduction

@@ -9,6 +9,7 @@ author: "Eva Thompson"
 authorTwitter: "@Eva"
 authorAvatar: "/images/authors/2.jpg"
 quote: "A post is a conversation starter in the grand symphony of online discussions."
+slug: "/post-2"
 ---
 
 ## Introduction

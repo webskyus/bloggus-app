@@ -7,8 +7,9 @@ category: "finance"
 tags: ["Personal Finance", "Budgeting", "Investment Strategies", "Financial Planning"]
 author: "Bella Smith"
 authorTwitter: "@BellaTwitter"
-authorAvatar: "/images/authors/3.jpg"
+authorAvatar: "/images/authors/2.jpg"
 quote: "Posting is not just about words; it's about creating an experience."
+slug: "/post-2"
 ---
 
 ![Personal Finance Guide](https://example.com/personal_finance_guide.jpg)

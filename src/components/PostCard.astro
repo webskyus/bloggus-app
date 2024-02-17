@@ -25,10 +25,6 @@ const {
     postCategory,
     postSlug
 } = Astro.props as Props;
-
-const tagColor = ['blue', 'green', 'yellow', 'orange', 'cyan', 'emerald', 'fuchsia'];
-const randomNumb = random(0, tagColor.length -1);
-const randomColor = await `bg-${tagColor[randomNumb]}-400`;
 ---
 
 <article class={`
@@ -50,7 +46,7 @@ const randomColor = await `bg-${tagColor[randomNumb]}-400`;
                    p-[4px] pl-[8px] pr-[8px] 
                    mt-[20px] mr-[16px]
                    font-light text-white 
-                   ${randomColor} rounded-[2px]
+                   border-b-[4px] border-b-pink-400 rounded-[2px]
            `}>
                {tags[0]}
                <span class={`w-[4px] h-[4px] ml-[4px] mr-[4px] rounded-full bg-white`}/>
@@ -72,7 +68,7 @@ const randomColor = await `bg-${tagColor[randomNumb]}-400`;
                 </time>
             </div>
 
-            <h3 class={`font-bold mt-[8px] text-white line-clamp-3`}>{title}</h3>
+            <h3 class={`font-bold mt-[8px] text-white leading-[20px] line-clamp-3`}>{title}</h3>
         </div>
 
         <img src={postThumbnail} style={{objectFit: "cover"}}

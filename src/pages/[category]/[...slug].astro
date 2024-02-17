@@ -1,5 +1,5 @@
 ---
-import {type CollectionEntry, getCollection} from "astro:content";
+import {getCollection} from "astro:content";
 import Layout from "@/layouts/Layout.astro";
 import PageHeadInfo from "@/components/PageHeadInfo.astro";
 import {random} from "@/utils/utils";
@@ -24,13 +24,15 @@ export async function getStaticPaths() {
         ...sportPosts
     ];
 
-    return posts.map((post) => ({
-        params: {
-            slug: post.slug,
-            category: post.data.category
-        },
-        props: post,
-    }));
+    return posts.map((post) => {
+        return {
+            params: {
+                slug: post.slug,
+                category: post.data.category
+            },
+            props: post,
+        }
+    });
 }
 
 const post = Astro.props;
@@ -54,10 +56,6 @@ const {Content} = await post.render();
             <ul class={`flex items-center justify-center`}>
                 {
                     tags.map((tag) => {
-                        const tagColor = ['blue', 'green', 'yellow', 'orange', 'cyan', 'emerald', 'fuchsia'];
-                        const randomNumb = random(0, tagColor.length - 1);
-                        const randomColor = `bg-${tagColor[randomNumb]}-400`;
-
                         return (
                                 <li class={`m-0 p-0 list-none`}>
                                     <a class={`
@@ -65,7 +63,7 @@ const {Content} = await post.render();
                                         p-[4px] pl-[8px] pr-[8px] 
                                         mt-[20px] mr-[16px]
                                         font-light !text-white rounded-[2px]
-                                        ${randomColor}
+                                        bg-pink-400
                                     `}>
                                         {tag}
                                     </a>

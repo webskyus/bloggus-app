@@ -9,6 +9,7 @@ author: "Helen Miller"
 authorTwitter: "@Miller"
 authorAvatar: "/images/authors/2.jpg"
 quote: "The art of posting lies in weaving words into a tapestry of meaning."
+slug: "/post-2"
 ---
 
 ## Introduction

@@ -9,6 +9,7 @@ author: "Peter Wilson"
 authorTwitter: "@PeterWilson"
 authorAvatar: "/images/authors/3.jpg"
 quote: "A single post can spark a thousand conversations, igniting the flames of connection."
+slug: "/post-3"
 ---
 
 ## Introduction

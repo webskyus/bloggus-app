@@ -9,6 +9,7 @@ author: "Ulysses Clark"
 authorTwitter: "@Clark"
 authorAvatar: "/images/authors/2.jpg"
 quote: "In the symphony of social media, posts are the notes that create the melody of connection."
+slug: "/post-2"
 ---
 
 ## Introduction

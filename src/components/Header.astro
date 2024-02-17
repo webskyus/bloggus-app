@@ -3,6 +3,42 @@ import HeaderLink from "@/components/HeaderLink.astro";
 import {GITHUB} from "@/utils/consts";
 import Icon from "@/components/Icon.astro";
 import {LINKEDIN} from "@/utils/consts";
+import {PAGE_NAME, URLS} from "../utils/consts";
+
+const nav = [
+    {
+        title: PAGE_NAME.HOME,
+        url: URLS[PAGE_NAME.HOME]
+    },
+    {
+        title: PAGE_NAME.ANIME,
+        url: URLS[PAGE_NAME.ANIME]
+    },
+    {
+        title: PAGE_NAME.FINANCE,
+        url: URLS[PAGE_NAME.FINANCE]
+    },
+    {
+        title: PAGE_NAME.LIFE,
+        url: URLS[PAGE_NAME.LIFE]
+    },
+    {
+        title: PAGE_NAME.MUSIC,
+        url: URLS[PAGE_NAME.MUSIC]
+    },
+    {
+        title: PAGE_NAME.MOVIE,
+        url: URLS[PAGE_NAME.MOVIE]
+    },
+    {
+        title: PAGE_NAME.SPORT,
+        url: URLS[PAGE_NAME.SPORT]
+    },
+    {
+        title: PAGE_NAME.GAMES,
+        url: URLS[PAGE_NAME.GAMES]
+    }
+]
 ---
 
 <header
@@ -35,65 +71,25 @@ import {LINKEDIN} from "@/utils/consts";
         </button>
         <ul data-js-menu
             class={`
-                    absolute top-[40px] right-[12px] z-10 
+                    absolute z-20 top-[40px] right-[12px] z-10 
                     hidden flex-col items-center 
                     w-[200px]
                     border-[2px] border-solid border-pink-400 bg-gray-50
                 `}
         >
-            <li
-                    class={`
-                            w-[100%] p-[12px] pl-[12px] pr-[12px] 
-                            border-b-[1px] border-solid border-pink-400
-                            transition-all hover:text-pink-400
-                        `}
-            >
-                <HeaderLink href="/">Home</HeaderLink>
-            </li>
-            <li
-                    class={`
-                            w-[100%] p-[12px] pl-[12px] pr-[12px] 
-                            border-b-[1px] border-solid border-pink-400
-                            transition-all hover:text-pink-400
-                        `}
-            >
-                <HeaderLink href="/">Hi-Tech</HeaderLink>
-            </li>
-            <li
-                    class={`
-                            w-[100%] p-[12px] pl-[12px] pr-[12px] 
-                            border-b-[1px] border-solid border-pink-400
-                            transition-all hover:text-pink-400
-                        `}
-            >
-                <HeaderLink href="/">Games</HeaderLink>
-            </li>
-            <li
-                    class={`
-                            w-[100%] p-[12px] pl-[12px] pr-[12px] 
-                            border-b-[1px] border-solid border-pink-400
-                            transition-all hover:text-pink-400
-                        `}
-            >
-                <HeaderLink href="/">Music</HeaderLink>
-            </li>
-            <li
-                    class={`
-                            w-[100%] p-[12px] pl-[12px] pr-[12px] 
-                            border-b-[1px] border-solid border-pink-400
-                            transition-all hover:text-pink-400
-                        `}
-            >
-                <HeaderLink href="/">Sport</HeaderLink>
-            </li>
-            <li
-                    class={`
-                            w-[100%] p-[12px] pl-[12px] pr-[12px] 
-                            transition-all hover:text-pink-400
-                        `}
-            >
-                <HeaderLink href="/">Movie</HeaderLink>
-            </li>
+            {
+                nav.map((menuItem) => {
+                    return (
+                            <li class={`
+                                        w-[100%] p-[12px] pl-[12px] pr-[12px] 
+                                        border-b-[1px] border-solid border-pink-400
+                                        transition-all hover:text-pink-400
+                                    `}>
+                                <HeaderLink href={menuItem.url}>{menuItem.title}</HeaderLink>
+                            </li>
+                    )
+                })
+            }
         </ul>
     </nav>
 

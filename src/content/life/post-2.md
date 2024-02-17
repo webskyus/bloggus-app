@@ -9,6 +9,7 @@ author: "Katherine Brown"
 authorTwitter: "@Katherine"
 authorAvatar: "/images/authors/2.jpg"
 quote: "Posts are the heartbeat of online communities, pulsating with shared emotions."
+slug: "/post-2"
 ---
 
 ## Introduction

@@ -9,6 +9,7 @@ author: "Jane Taylor"
 authorTwitter: "@Taylor"
 authorAvatar: "/images/authors/1.jpg"
 quote: "A post is a snapshot of the author's mind, frozen in the timeline of the internet."
+slug: "/post-1"
 ---
 
 ## Introduction

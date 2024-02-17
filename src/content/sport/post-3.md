@@ -9,6 +9,7 @@ author: "Peter Clark"
 authorTwitter: "@CamaraderieChampion"
 authorAvatar: "/images/authors/3.jpg"
 quote: "In every post, there's a story waiting to be shared."
+slug: "/post-3"
 ---
 
 ## Introduction

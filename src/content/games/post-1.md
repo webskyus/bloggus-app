@@ -9,6 +9,7 @@ author: "Diana Rodriguez"
 authorTwitter: "@DianaT"
 authorAvatar: "/images/authors/1.jpg"
 quote: "In the realm of posts, ideas come to life and dreams take flight."
+slug: "/post-1"
 ---
 
 ## Introduction

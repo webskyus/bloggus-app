@@ -9,6 +9,7 @@ author: "Nancy Harris"
 authorTwitter: "@NH"
 authorAvatar: "/images/authors/2.jpg"
 quote: "In the world of posts, ideas collide, and creativity knows no bounds."
+slug: "/post-2"
 ---
 
 ## Introduction

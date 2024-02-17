@@ -9,6 +9,7 @@ author: "Tina Johnson"
 authorTwitter: "@Johnson"
 authorAvatar: "/images/authors/1.jpg"
 quote: "Through posts, we navigate the labyrinth of information, discovering new perspectives."
+slug: "/post-1"
 ---
 
 

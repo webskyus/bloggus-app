@@ -9,6 +9,7 @@ author: "Erica Shaw"
 authorTwitter: "@AnimeLover123"
 authorAvatar: "/images/authors/1.jpg"
 quote: "In every post, there's a story waiting to be shared."
+slug: "/post-1"
 ---
 
 # The Enchanting World of Studio Ghibli
