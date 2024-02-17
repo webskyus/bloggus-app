@@ -5,34 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="16c31d35-124f-4fc6-89ec-63b02044a191" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/content/anime/post-1.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/content/anime/post-1.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/content/anime/post-2.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/content/anime/post-2.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/content/anime/post-3.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/content/anime/post-3.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/content/config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/content/config.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/content/finance/post-1.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/content/finance/post-1.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/content/finance/post-2.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/content/finance/post-2.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/content/finance/post-3.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/content/finance/post-3.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/content/games/post-1.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/content/games/post-1.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/content/games/post-2.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/content/games/post-2.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/content/games/post-3.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/content/games/post-3.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/content/hi-tech/post-1.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/content/hi-tech/post-1.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/content/hi-tech/post-2.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/content/hi-tech/post-2.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/content/hi-tech/post-3.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/content/hi-tech/post-3.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/content/life/post-1.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/content/life/post-1.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/content/life/post-2.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/content/life/post-2.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/content/life/post-3.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/content/life/post-3.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/content/movie/post-1.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/content/movie/post-1.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/content/movie/post-2.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/content/movie/post-2.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/content/movie/post-3.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/content/movie/post-3.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/content/music/post-1.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/content/music/post-1.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/content/music/post-2.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/content/music/post-2.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/content/music/post-3.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/content/music/post-3.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/content/sport/post-1.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/content/sport/post-1.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/content/sport/post-2.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/content/sport/post-2.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/content/sport/post-3.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/content/sport/post-3.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/[category]/index.astro" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/[category]/index.astro" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/index.astro" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.astro" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/rss.xml.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/rss.xml.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/[category]/[...slug].astro" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/[category]/[...slug].astro" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,7 +72,7 @@
       <updated>1708001856921</updated>
       <workItem from="1708001859249" duration="7158000" />
       <workItem from="1708050523946" duration="31000" />
-      <workItem from="1708054044258" duration="49465000" />
+      <workItem from="1708054044258" duration="49915000" />
     </task>
     <servers />
   </component>
