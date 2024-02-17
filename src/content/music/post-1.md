@@ -12,7 +12,6 @@ quote: "Posts are the building blocks of the digital era, constructing the edifi
 slug: "/post-1"
 ---
 
-
 ## Introduction
 
 Embark on a journey into the enchanting realm of jazz music, where the magic of improvisation and the beauty of expressive melodies converge. In this post, we'll explore the rich history, intricate rhythms, and soulful expressions that define the world of jazz.
@@ -36,4 +35,3 @@ Jazz is more than a genre; it's a dynamic conversation between musicians, a cele
 Happy exploring, and may the harmony of jazz fill your days with joy!
 
 ---
-

@@ -4,7 +4,13 @@ description: "Delve into the intricacies of game design, exploring how developer
 pubDate: "Apr 5, 2023"
 image: "/images/games/3.jpg"
 category: "games"
-tags: ["Game Design", "Immersive Experiences", "Virtual Worlds", "Player Engagement"]
+tags:
+  [
+    "Game Design",
+    "Immersive Experiences",
+    "Virtual Worlds",
+    "Player Engagement",
+  ]
 author: "Frank Thompson"
 authorTwitter: "@Frank"
 authorAvatar: "/images/authors/3.jpg"

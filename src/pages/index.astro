@@ -1,99 +1,93 @@
 ---
-import {getCollection} from "astro:content";
+import { getCollection } from "astro:content";
 import Layout from "@/layouts/Layout.astro";
 import Post from "../components/PostCard.astro";
-import {PAGES_HEAD_INFO, POST_TYPE, URLS} from "@/utils/consts";
-import {random} from "@/utils/utils";
+import {POST_TYPE } from "@/utils/consts";
+import { random } from "@/utils/utils";
 import PageHeadInfo from "@/components/PageHeadInfo.astro";
-import {PAGE_NAME} from "../utils/consts";
 
 const animePosts = (await getCollection("anime")).sort(
-    (a, b) => a.data.pubDate.valueOf() - b.data.pubDate.valueOf(),
+  (a, b) => a.data.pubDate.valueOf() - b.data.pubDate.valueOf(),
 );
 
 const financePosts = (await getCollection("finance")).sort(
-    (a, b) => a.data.pubDate.valueOf() - b.data.pubDate.valueOf(),
+  (a, b) => a.data.pubDate.valueOf() - b.data.pubDate.valueOf(),
 );
 
 const gamesPosts = (await getCollection("games")).sort(
-    (a, b) => a.data.pubDate.valueOf() - b.data.pubDate.valueOf(),
+  (a, b) => a.data.pubDate.valueOf() - b.data.pubDate.valueOf(),
 );
 
 const hiTechPosts = (await getCollection("hi-tech")).sort(
-    (a, b) => a.data.pubDate.valueOf() - b.data.pubDate.valueOf(),
+  (a, b) => a.data.pubDate.valueOf() - b.data.pubDate.valueOf(),
 );
 
 const lifePosts = (await getCollection("life")).sort(
-    (a, b) => a.data.pubDate.valueOf() - b.data.pubDate.valueOf(),
+  (a, b) => a.data.pubDate.valueOf() - b.data.pubDate.valueOf(),
 );
 
 const moviePosts = (await getCollection("movie")).sort(
-    (a, b) => a.data.pubDate.valueOf() - b.data.pubDate.valueOf(),
+  (a, b) => a.data.pubDate.valueOf() - b.data.pubDate.valueOf(),
 );
 
 const musicPosts = (await getCollection("music")).sort(
-    (a, b) => a.data.pubDate.valueOf() - b.data.pubDate.valueOf(),
+  (a, b) => a.data.pubDate.valueOf() - b.data.pubDate.valueOf(),
 );
 
 const sportPosts = (await getCollection("sport")).sort(
-    (a, b) => a.data.pubDate.valueOf() - b.data.pubDate.valueOf(),
+  (a, b) => a.data.pubDate.valueOf() - b.data.pubDate.valueOf(),
 );
 
-const getPostVisualType = (evenMax, oddMax): POST_TYPE => {
-    const even = random(1, evenMax) % 2 === 0;
-    const odd = random(1, oddMax) % 3 === 0;
+const getPostVisualType = (evenMax: number, oddMax: number): POST_TYPE => {
+  const even = random(1, evenMax) % 2 === 0;
+  const odd = random(1, oddMax) % 3 === 0;
 
-    return even
-        ? POST_TYPE.POST_SM
-        : odd
-            ? POST_TYPE.POST_MD
-            : POST_TYPE.POST_LG;
-}
+  return even ? POST_TYPE.POST_SM : odd ? POST_TYPE.POST_MD : POST_TYPE.POST_LG;
+};
 ---
 
 <Layout>
+  <PageHeadInfo />
 
-    <PageHeadInfo />
+  <section class={`container mx-auto`}>
+    <section class={`flex flex-wrap -mx-2`}>
+      {
+        Array.from(Array(3).keys()).map((_, rowIndex) => {
+          const posts = [
+            ...animePosts,
+            ...financePosts,
+            ...gamesPosts,
+            ...hiTechPosts,
+            ...lifePosts,
+            ...moviePosts,
+            ...musicPosts,
+            ...sportPosts,
+          ];
+          const maxItems = Math.round(posts.length / 3);
+          const min = rowIndex * maxItems;
+          const max = rowIndex * maxItems + maxItems;
 
-    <section class={`container mx-auto`}>
-        <section class={`flex flex-wrap -mx-2`}>
-            {
-                Array.from(Array(3).keys()).map((item, rowIndex) => {
-                    const posts = [
-                        ...animePosts,
-                        ...financePosts,
-                        ...gamesPosts,
-                        ...hiTechPosts,
-                        ...lifePosts,
-                        ...moviePosts,
-                        ...musicPosts,
-                        ...sportPosts
-                    ];
-                    const maxItems = Math.round(posts.length / 3);
-                    const min = rowIndex * maxItems;
-                    const max = (rowIndex * maxItems) + maxItems;
-
-                    return (
-                            <article class={`w-full md:w-1/3 px-1 md:px-2`}>
-                                {
-                                    posts.slice(min, max).map((post) => {
-                                        return (
-                                                <Post title={post.data.title}
-                                                      author={post.data.author}
-                                                      authorAvatar={post.data.authorAvatar}
-                                                      postThumbnail={post.data.image}
-                                                      tags={post.data.tags}
-                                                      postSlug={post.slug}
-                                                      postCategory={post.data.category}
-                                                      postVisualType={getPostVisualType(max, min)}/>
-                                        )
-                                    })
-                                }
-                            </article>
-                    )
-                })
-            }
-        </section>
+          return (
+            <article class={`w-full md:w-1/3 px-1 md:px-2`}>
+              {posts.slice(min, max).map((post) => {
+                return (
+                  <Post
+                    title={post.data.title}
+                    author={post.data.author}
+                    authorAvatar={post.data.authorAvatar}
+                    postThumbnail={post.data.image}
+                    tags={post.data.tags}
+                    date={post.data.pubDate}
+                    postSlug={post.slug}
+                    postCategory={post.data.category}
+                    postVisualType={getPostVisualType(max, min)}
+                  />
+                );
+              })}
+            </article>
+          );
+        })
+      }
     </section>
+  </section>
 </Layout>
-

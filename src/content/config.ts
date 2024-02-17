@@ -1,4 +1,4 @@
-import { defineCollection, z } from 'astro:content'
+import { defineCollection, z } from "astro:content";
 
 const schema = z.object({
   title: z.string(),
@@ -10,56 +10,56 @@ const schema = z.object({
   category: z.string(),
   quote: z.string(),
   authorAvatar: z.string(),
-  tags: z.array(z.string())
-})
+  tags: z.array(z.string()),
+});
 
 const anime = defineCollection({
-  type: 'content',
+  type: "content",
   // Type-check formatter using a schema
-  schema
-})
+  schema,
+});
 
 const finance = defineCollection({
-  type: 'content',
+  type: "content",
   // Type-check formatter using a schema
-  schema
-})
+  schema,
+});
 
 const sport = defineCollection({
-  type: 'content',
+  type: "content",
   // Type-check formatter using a schema
-  schema
-})
+  schema,
+});
 
 const music = defineCollection({
-  type: 'content',
+  type: "content",
   // Type-check formatter using a schema
-  schema
-})
+  schema,
+});
 
 const movie = defineCollection({
-  type: 'content',
+  type: "content",
   // Type-check formatter using a schema
-  schema
-})
+  schema,
+});
 
 const life = defineCollection({
-  type: 'content',
+  type: "content",
   // Type-check formatter using a schema
-  schema
-})
+  schema,
+});
 
 const hiTech = defineCollection({
-  type: 'content',
+  type: "content",
   // Type-check formatter using a schema
-  schema
-})
+  schema,
+});
 
 const games = defineCollection({
-  type: 'content',
+  type: "content",
   // Type-check formatter using a schema
-  schema
-})
+  schema,
+});
 
 export const collections = {
   anime,
@@ -69,5 +69,5 @@ export const collections = {
   music,
   movie,
   hiTech,
-  games
-}
+  games,
+};

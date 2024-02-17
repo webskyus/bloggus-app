@@ -4,7 +4,13 @@ description: "Celebrate the triumphs of underdog athletes and teams who defied t
 pubDate: "Sep 08, 2023"
 image: "/images/sport/2.jpg"
 category: "sport"
-tags: ["Underdog Triumphs", "Adversity Overcome", "Inspiring Stories", "Unlikely Victories"]
+tags:
+  [
+    "Underdog Triumphs",
+    "Adversity Overcome",
+    "Inspiring Stories",
+    "Unlikely Victories",
+  ]
 author: "Ulysses Clark"
 authorTwitter: "@Clark"
 authorAvatar: "/images/authors/2.jpg"
@@ -35,4 +41,3 @@ The stories of underdog triumphs remind us that the human spirit is capable of r
 Happy exploring, and may the indomitable spirit of underdog triumphs continue to captivate hearts worldwide!
 
 ---
-

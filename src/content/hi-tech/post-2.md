@@ -4,7 +4,13 @@ description: "Discover the intersection of artificial intelligence and healthcar
 pubDate: "Nov 6, 2023"
 image: "/images/hi-tech/2.jpg"
 category: "hi-tech"
-tags: ["Artificial Intelligence", "Healthcare Technology", "Machine Learning", "Medical Innovation"]
+tags:
+  [
+    "Artificial Intelligence",
+    "Healthcare Technology",
+    "Machine Learning",
+    "Medical Innovation",
+  ]
 author: "Helen Miller"
 authorTwitter: "@Miller"
 authorAvatar: "/images/authors/2.jpg"
@@ -35,4 +41,3 @@ As AI continues to permeate the healthcare landscape, the fusion of technology a
 Happy exploring, and may the convergence of AI and healthcare lead to healthier tomorrows!
 
 ---
-

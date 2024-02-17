@@ -4,7 +4,13 @@ description: "Shift the spotlight beyond the scoreboards and trophies as we expl
 pubDate: "Feb 01, 2024"
 image: "/images/sport/3.jpg"
 category: "sport"
-tags: ["Sportsmanship", "Acts of Kindness", "Camaraderie in Sports", "Heartwarming Moments"]
+tags:
+  [
+    "Sportsmanship",
+    "Acts of Kindness",
+    "Camaraderie in Sports",
+    "Heartwarming Moments",
+  ]
 author: "Peter Clark"
 authorTwitter: "@CamaraderieChampion"
 authorAvatar: "/images/authors/3.jpg"

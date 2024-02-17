@@ -4,7 +4,13 @@ description: "Take a nostalgic journey through the Golden Age of Hollywood, wher
 pubDate: "Aug 12, 2023"
 image: "/images/movie/1.jpg"
 category: "movie"
-tags: ["Golden Age of Hollywood", "Classic Films", "Cinematic Brilliance", "Iconic Stars"]
+tags:
+  [
+    "Golden Age of Hollywood",
+    "Classic Films",
+    "Cinematic Brilliance",
+    "Iconic Stars",
+  ]
 author: "Mia Clark"
 authorTwitter: "@MClark"
 authorAvatar: "/images/authors/1.jpg"
@@ -35,4 +41,3 @@ The Golden Age of Hollywood remains a testament to the enduring power of storyte
 Happy exploring, and may the magic of Hollywood's golden era forever shine brightly!
 
 ---
-

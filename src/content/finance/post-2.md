@@ -4,7 +4,13 @@ description: "Empower yourself with the knowledge and strategies to take control
 pubDate: "Oct 11, 2023"
 image: "/images/finance/2.jpg"
 category: "finance"
-tags: ["Personal Finance", "Budgeting", "Investment Strategies", "Financial Planning"]
+tags:
+  [
+    "Personal Finance",
+    "Budgeting",
+    "Investment Strategies",
+    "Financial Planning",
+  ]
 author: "Bella Smith"
 authorTwitter: "@BellaTwitter"
 authorAvatar: "/images/authors/2.jpg"
@@ -41,4 +47,3 @@ Financial freedom is within reach, and with the right knowledge and mindset, you
 Happy budgeting, investing, and building a brighter financial future!
 
 ---
-

@@ -4,7 +4,13 @@ description: "Gain insights into the dynamic world of stock market investing, ex
 pubDate: "Oct 21, 2023"
 image: "/images/finance/3.jpg"
 category: "finance"
-tags: ["Stock Market", "Investing Strategies", "Portfolio Management", "Market Trends"]
+tags:
+  [
+    "Stock Market",
+    "Investing Strategies",
+    "Portfolio Management",
+    "Market Trends",
+  ]
 author: "Chris Williams"
 authorTwitter: "ChrisTwitter"
 authorAvatar: "/images/authors/3.jpg"

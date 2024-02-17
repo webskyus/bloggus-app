@@ -44,5 +44,5 @@ Pazu and Sheeta embark on an adventure to find the legendary floating city of La
 
 Studio Ghibli's films resonate across generations, touching our hearts with their timeless themes and breathtaking animation. Which Ghibli film is your favorite?
 
-*Author: AnimeLover123*
+_Author: AnimeLover123_
 !Author Avatar

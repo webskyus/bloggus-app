@@ -4,7 +4,13 @@ description: "Step into the era of hyper-connectivity with the 5G revolution, wh
 pubDate: "Jun 4, 2023"
 image: "/images/hi-tech/3.jpg"
 category: "hi-tech"
-tags: ["5G Technology", "Hyper-Connectivity", "Internet of Things", "Digital Transformation"]
+tags:
+  [
+    "5G Technology",
+    "Hyper-Connectivity",
+    "Internet of Things",
+    "Digital Transformation",
+  ]
 author: "Ivan Lee"
 authorTwitter: "@Lee"
 authorAvatar: "/images/authors/3.jpg"

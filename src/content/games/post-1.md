@@ -4,7 +4,13 @@ description: "Embark on a journey through the evolution of gaming, from pixelate
 pubDate: "Sep 1, 2023"
 image: "/images/games/1.jpg"
 category: "games"
-tags: ["Gaming Evolution", "Virtual Reality", "Immersive Experiences", "Future of Gaming"]
+tags:
+  [
+    "Gaming Evolution",
+    "Virtual Reality",
+    "Immersive Experiences",
+    "Future of Gaming",
+  ]
 author: "Diana Rodriguez"
 authorTwitter: "@DianaT"
 authorAvatar: "/images/authors/1.jpg"
@@ -35,4 +41,3 @@ Gaming's journey is a testament to human creativity and technological progress. 
 Happy gaming, and may your future quests be filled with awe-inspiring experiences!
 
 ---
-

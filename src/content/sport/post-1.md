@@ -4,14 +4,19 @@ description: "Relive the heart-pounding excitement of legendary moments in sport
 pubDate: "May 18, 2023"
 image: "/images/sport/1.jpg"
 category: "sport"
-tags: ["Sports History", "Legendary Moments", "Game-Winning Plays", "Record-Breaking Achievements"]
+tags:
+  [
+    "Sports History",
+    "Legendary Moments",
+    "Game-Winning Plays",
+    "Record-Breaking Achievements",
+  ]
 author: "Tina Johnson"
 authorTwitter: "@Johnson"
 authorAvatar: "/images/authors/1.jpg"
 quote: "Through posts, we navigate the labyrinth of information, discovering new perspectives."
 slug: "/post-1"
 ---
-
 
 ## Introduction
 
@@ -36,4 +41,3 @@ The thrill of victory is not just about winning; it's about the unforgettable mo
 Happy exploring, and may the thrill of victory continue to echo through the arenas of sports history!
 
 ---
-
