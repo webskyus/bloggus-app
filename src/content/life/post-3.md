@@ -1,7 +1,7 @@
 ---
 title: "The Art of Gratitude: Cultivating Joy in Everyday Life"
 description: "Discover the transformative power of gratitude in enhancing overall well-being and finding joy in the simple moments of life. Explore practical tips and exercises to incorporate gratitude into your daily routine."
-pubDate: "Sep 03, 2023"
+publishedDate: "Sep 03, 2023"
 image: "/images/life/3.jpg"
 category: "life"
 tags: ["Gratitude", "Well-being", "Joyful Living", "Mindful Appreciation"]

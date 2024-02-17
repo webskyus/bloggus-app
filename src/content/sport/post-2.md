@@ -1,7 +1,7 @@
 ---
 title: "Rise of Underdogs: Inspiring Stories of Triumph in Sports"
 description: "Celebrate the triumphs of underdog athletes and teams who defied the odds, overcame adversity, and emerged victorious against more favored opponents. Join us in exploring the inspiring stories that showcase the indomitable spirit of the underdog in sports."
-pubDate: "Sep 08, 2023"
+publishedDate: "Sep 08, 2023"
 image: "/images/sport/2.jpg"
 category: "sport"
 tags:

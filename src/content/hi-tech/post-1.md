@@ -1,7 +1,7 @@
 ---
 title: "The Rise of Quantum Computing: Unleashing the Power of Qubits"
 description: "Explore the revolutionary field of quantum computing, where qubits defy the limitations of classical computing, opening new frontiers in computation, encryption, and problem-solving."
-pubDate: "Avg 12, 2023"
+publishedDate: "Avg 12, 2023"
 image: "/images/hi-tech/1.jpg"
 category: "hi-tech"
 tags:

@@ -1,7 +1,7 @@
 ---
 title: "Rhythmic Diversity: Exploring the Global Sounds of World Music"
 description: "Embark on a musical journey around the world, discovering the rich tapestry of sounds, rhythms, and cultural influences that shape the diverse landscape of world music."
-pubDate: "Jun 15, 2023"
+publishedDate: "Jun 15, 2023"
 image: "/images/music/3.jpg"
 category: "music"
 tags: ["World Music", "Cultural Fusion", "Global Sounds", "Musical Diversity"]

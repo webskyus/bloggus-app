@@ -1,7 +1,7 @@
 ---
 title: "Embracing Mindfulness: A Journey to Inner Peace"
 description: "Embark on a transformative journey towards inner peace and mindfulness, discovering the profound impact of present-moment awareness on well-being and life satisfaction."
-pubDate: "Feb 14, 2024"
+publishedDate: "Feb 14, 2024"
 image: "/images/life/1.jpg"
 category: "life"
 tags: ["Mindfulness", "Inner Peace", "Well-being", "Life Satisfaction"]

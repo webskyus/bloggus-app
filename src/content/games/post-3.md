@@ -1,7 +1,7 @@
 ---
 title: "The Art of Game Design: Crafting Immersive Experiences"
 description: "Delve into the intricacies of game design, exploring how developers craft immersive experiences, memorable worlds, and captivating gameplay that keep players coming back for more."
-pubDate: "Apr 5, 2023"
+publishedDate: "Apr 5, 2023"
 image: "/images/games/3.jpg"
 category: "games"
 tags:

@@ -1,7 +1,7 @@
 ---
 title: "Navigating the Stock Market: Strategies for Success"
 description: "Gain insights into the dynamic world of stock market investing, exploring strategies to make informed decisions and build a robust investment portfolio."
-pubDate: "Oct 21, 2023"
+publishedDate: "Oct 21, 2023"
 image: "/images/finance/3.jpg"
 category: "finance"
 tags:

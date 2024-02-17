@@ -1,7 +1,7 @@
 ---
 title: "Mastering Personal Finance: A Guide to Financial Freedom"
 description: "Empower yourself with the knowledge and strategies to take control of your finances, paving the way to a secure and prosperous future."
-pubDate: "Oct 11, 2023"
+publishedDate: "Oct 11, 2023"
 image: "/images/finance/2.jpg"
 category: "finance"
 tags:

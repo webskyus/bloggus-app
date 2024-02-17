@@ -7,35 +7,35 @@ import { random } from "@/utils/utils";
 import PageHeadInfo from "@/components/PageHeadInfo.astro";
 
 const animePosts = (await getCollection("anime")).sort(
-  (a, b) => a.data.pubDate.valueOf() - b.data.pubDate.valueOf(),
+  (a, b) => a.data.publishedDate.valueOf() - b.data.publishedDate.valueOf(),
 );
 
 const financePosts = (await getCollection("finance")).sort(
-  (a, b) => a.data.pubDate.valueOf() - b.data.pubDate.valueOf(),
+  (a, b) => a.data.publishedDate.valueOf() - b.data.publishedDate.valueOf(),
 );
 
 const gamesPosts = (await getCollection("games")).sort(
-  (a, b) => a.data.pubDate.valueOf() - b.data.pubDate.valueOf(),
+  (a, b) => a.data.publishedDate.valueOf() - b.data.publishedDate.valueOf(),
 );
 
 const hiTechPosts = (await getCollection("hi-tech")).sort(
-  (a, b) => a.data.pubDate.valueOf() - b.data.pubDate.valueOf(),
+  (a, b) => a.data.publishedDate.valueOf() - b.data.publishedDate.valueOf(),
 );
 
 const lifePosts = (await getCollection("life")).sort(
-  (a, b) => a.data.pubDate.valueOf() - b.data.pubDate.valueOf(),
+  (a, b) => a.data.publishedDate.valueOf() - b.data.publishedDate.valueOf(),
 );
 
 const moviePosts = (await getCollection("movie")).sort(
-  (a, b) => a.data.pubDate.valueOf() - b.data.pubDate.valueOf(),
+  (a, b) => a.data.publishedDate.valueOf() - b.data.publishedDate.valueOf(),
 );
 
 const musicPosts = (await getCollection("music")).sort(
-  (a, b) => a.data.pubDate.valueOf() - b.data.pubDate.valueOf(),
+  (a, b) => a.data.publishedDate.valueOf() - b.data.publishedDate.valueOf(),
 );
 
 const sportPosts = (await getCollection("sport")).sort(
-  (a, b) => a.data.pubDate.valueOf() - b.data.pubDate.valueOf(),
+  (a, b) => a.data.publishedDate.valueOf() - b.data.publishedDate.valueOf(),
 );
 
 const getPostVisualType = (evenMax: number, oddMax: number): POST_TYPE => {
@@ -77,7 +77,7 @@ const getPostVisualType = (evenMax: number, oddMax: number): POST_TYPE => {
                     authorAvatar={post.data.authorAvatar}
                     postThumbnail={post.data.image}
                     tags={post.data.tags}
-                    date={post.data.pubDate}
+                    date={post.data.publishedDate}
                     postSlug={post.slug}
                     postCategory={post.data.category}
                     postVisualType={getPostVisualType(max, min)}

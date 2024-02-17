@@ -1,7 +1,7 @@
 ---
 title: "Symphony of Emotions: The Transformative Power of Classical Music"
 description: "Immerse yourself in the timeless beauty of classical music, where intricate compositions, emotional depth, and masterful performances create a symphony that transcends time and resonates with the soul."
-pubDate: "Oct 20, 2023"
+publishedDate: "Oct 20, 2023"
 image: "/images/music/2.jpg"
 category: "music"
 tags:

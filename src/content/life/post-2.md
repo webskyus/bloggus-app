@@ -1,7 +1,7 @@
 ---
 title: "The Power of Resilience: Overcoming Life's Challenges"
 description: "Explore the concept of resilience and its transformative role in facing life's challenges. Discover practical strategies to cultivate resilience, bounce back from adversity, and emerge stronger than ever."
-pubDate: "May 22, 2023"
+publishedDate: "May 22, 2023"
 image: "/images/life/2.jpg"
 category: "life"
 tags: ["Resilience", "Adversity", "Personal Growth", "Strength"]

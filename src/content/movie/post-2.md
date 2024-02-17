@@ -1,7 +1,7 @@
 ---
 title: "Epic Blockbusters: Navigating the Evolution of Modern Cinema"
 description: "Embark on a cinematic journey through the evolution of modern blockbusters, from the advent of special effects to the rise of cinematic universes. Explore how these epic films have redefined the movie-going experience and captivated audiences worldwide."
-pubDate: "Apr 25, 2023"
+publishedDate: "Apr 25, 2023"
 image: "/images/movie/2.jpg"
 category: "movie"
 tags:

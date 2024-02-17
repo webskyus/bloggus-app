@@ -1,7 +1,7 @@
 ---
 title: "The Art of Anime: A Visual Symphony of Colors and Emotions"
 description: "Immerse yourself in the visual tapestry of anime, where vibrant colors and emotional depth converge to create a unique artistic experience."
-pubDate: "Jul 11, 2023"
+publishedDate: "Jul 11, 2023"
 image: "/images/anime/3.jpg"
 category: "anime"
 tags:

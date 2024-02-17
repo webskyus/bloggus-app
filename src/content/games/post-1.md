@@ -1,7 +1,7 @@
 ---
 title: "The Evolution of Virtual Realms: A Glimpse into Gaming's Future"
 description: "Embark on a journey through the evolution of gaming, from pixelated nostalgia to immersive virtual realities, and explore what the future holds for gamers worldwide."
-pubDate: "Sep 1, 2023"
+publishedDate: "Sep 1, 2023"
 image: "/images/games/1.jpg"
 category: "games"
 tags:

@@ -1,7 +1,7 @@
 ---
 title: "Indie Gems: Unearthing Hidden Treasures in the Gaming World"
 description: "Embark on a journey through the world of indie games, discovering the unique narratives, innovative gameplay, and artistic brilliance that define these hidden treasures."
-pubDate: "Jan 4, 2023"
+publishedDate: "Jan 4, 2023"
 image: "/images/games/2.jpg"
 category: "games"
 tags: ["Indie Games", "Gaming Community", "Artistic Brilliance", "Hidden Gems"]
