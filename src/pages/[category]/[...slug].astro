@@ -36,8 +36,7 @@ export async function getStaticPaths() {
 }
 
 const post = Astro.props;
-const { title, description, image, author, authorTwitter, quote, tags } =
-  post.data;
+const { title, description, image, author, authorTwitter, quote, tags, authorAvatar } = post.data;
 const { Content } = await post.render();
 
 ---
@@ -75,7 +74,7 @@ const { Content } = await post.render();
             class={`rounded-full float-left h-full`}
             height="64"
             width="64"
-            src={`https://randomuser.me/api/portraits/women/${random(0, 100)}.jpg`}
+            src={authorAvatar}
           />
           <p class={`flex flex-col !mb-[8px] !ml-[8px]`}>
             <span class={`font-medium text-[18px] mt-[10px] mb-[-10px]`}
