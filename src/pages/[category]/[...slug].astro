@@ -46,15 +46,15 @@ const { Content } = await post.render();
     <article class="post-page">
       <PageHeadInfo title={title} description={description} />
 
-      <ul class={`flex items-center justify-center !mt-[-20px]`}>
+      <ul class={`flex !flex-wrap items-center justify-center !pl-0 !pr-0 !mt-[-20px]`}>
         {
           tags.map((tag: string) => {
             return (
               <li
                 class={`
-                                        flex items-center
+                                        flex  items-center
                                         p-[4px] pl-[8px] pr-[8px] 
-                                        m-0 p-0 list-none mt-[20px] mr-[16px]
+                                        m-0 p-0 list-none mt-[20px] mr-[16px] w-full sm:w-auto
                                         font-light !text-white rounded-[2px]
                                         bg-pink-400
                                 `}
