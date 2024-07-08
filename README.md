@@ -1,7 +1,17 @@
 # Bloggus Astro App ✨
 
-## This is my pet project with Astro, Tailwind, TS.
+## Stack
+- [Astro](https://astro.build/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Tailwind](https://ui.shadcn.com/)
 
+---
+## Features 
+
+- 📚 **Category-Based Posts**: Easily navigate through content organized into specific categories, making it simple to find exactly what you're looking for.
+- 📱 **Responsive Design**: Enjoy a seamless browsing experience on any device, whether you're on a desktop, tablet, or smartphone.
+
+---
 ## 🚀 Project Structure
 
 Inside of your Astro project, you'll see the following folders and files:
